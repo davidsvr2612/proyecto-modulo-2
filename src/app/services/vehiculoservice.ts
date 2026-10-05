@@ -1,10 +1,11 @@
-import { Injectable, Service } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import {Observable} from 'rxjs';
-import {Vehiculo} from '../model/vehiculomodel';
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Vehiculo } from '../model/vehiculomodel';
 
-
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class VehiculoService {
   private jsonUrl = 'assets/vehiculo/vehiculo.json';
 
@@ -12,6 +13,6 @@ export class VehiculoService {
   }
 
   getVehiculos(): Observable<Vehiculo[]> {
-    return this.http.get<Vehiculo[]>(this.jsonUrl)
+    return this.http.get<Vehiculo[]>(this.jsonUrl);
   }
 }

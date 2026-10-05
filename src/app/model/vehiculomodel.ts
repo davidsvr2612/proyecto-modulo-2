@@ -7,6 +7,7 @@ export interface Vehiculo {
   precioPorDia: number;
   imagen : string;
   ubicacion: number;
+  disponible: boolean;
 
 
 }
