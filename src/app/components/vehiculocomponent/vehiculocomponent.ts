@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef, inject } from '@angular/core';
 import { Vehiculo } from '../../model/vehiculomodel';
 import { VehiculoService } from '../../services/vehiculoservice';
 import { Router } from '@angular/router';
@@ -10,20 +10,18 @@ import { Router } from '@angular/router';
   templateUrl: './vehiculocomponent.html',
 })
 export class Vehiculocomponent implements OnInit {
-  listaVehiculos: Vehiculo[] = [];
+  private vehiculoService = inject(VehiculoService);
+  private router = inject(Router);
+  private cdr = inject(ChangeDetectorRef);
 
-  constructor(
-    private vehiculoService: VehiculoService,
-    private router: Router,
-    private cdr: ChangeDetectorRef //
-  ) {}
+  listaVehiculos: Vehiculo[] = [];
 
   ngOnInit() {
     this.vehiculoService.getVehiculos().subscribe({
       next: (data: Vehiculo[]) => {
-        console.log('DATOS ASIGNADOS:', data);
+        console.log('Datos Asignados:', data);
         this.listaVehiculos = data;
-        this.cdr.detectChanges(); //
+        this.cdr.detectChanges();
       },
       error: (err) => {
         console.error('Error al cargar los vehiculos', err);
@@ -32,6 +30,6 @@ export class Vehiculocomponent implements OnInit {
   }
 
   seleccionarVehiculo(id: number) {
-    this.router.navigate(['reserva','vehiculos', id]);
+    void this.router.navigate(['reserva', 'vehiculos', id]);
   }
 }
