@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "modelo": "Renault Duster SUV",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 120000,
+    "imagen":"https://www.renaultnorteysur.com/wp-content/uploads/2024/09/renault-duster-iconic-4x4-blanco-glaciar.webp",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "modelo": "Chevrolet Onix Turbo",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 95000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt1kw9ExFRpUQVPLgBzact7xmwEDBFA5sDkuXLauNOyw&s=10",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "modelo": "Mazda CX-5 Grand Touring",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 180000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRR5rXYGQIjypCtHFcHQ7KLJ4tABkXbIrCGWlIAjBoyVCEjCq5UbOJU3Cp&s=10  ",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "modelo": "Toyota Hilux 4x4",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 250000,
+    "imagen": "https://yokomotor.com.co/toyota/wp-content/uploads/sites/2/2025/05/yokomotor-toyota-hilux-2-4-super-blanco.webp",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": false
+  },
+  {
+    "id": 5,
+    "modelo": "Kia Picanto Vibrant",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 75000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWX0s5qkFFpgu_fxpeSgCIwqy-onOGKPFwy7Wgl2ORAYXSUy5SUE9WN17J&s=10",
+    "ubicacion": "Bucaramanga",
+    "disponible": true
+  },
+  {
+    "id": 6,
+    "modelo": "Nissan Kicks Advance",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 135000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzbNxwd9HsN2XI1D59_cMNupwpR3PrrhAb1Xiyj9OX_Kz88GrIUjN4hbg&s=10",
+    "ubicacion": "Cartagena",
+    "disponible": true
+  },
+  {
+    "id": 7,
+    "modelo": "Volkswagen T-Cross Trendline",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 140000,
+    "imagen": "https://growing-book-496d1c5ffa.media.strapiapp.com/t_cross_trend_200_4afd7c330e.webp",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 8,
+    "modelo": "Chevrolet Tracker Turbo",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 130000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5M-5BS1d3hFxTkkL4iTEggjU0e_leXTkYa0aWZ3vFg&s=10",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 9,
+    "modelo": "Mazda 3 Sport",
+    "tipo": "Automóvil",
+    "transmision": "Automática",
+    "precioPorDia": 145000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0UuuIq2cI5nwP4yYJqQN8DKz3SRMLRtoe83bVn69AFp7ada-3ECyKMYI&s=10",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 10,
+    "modelo": "Renault Logan Life",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 80000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfLFKKZS24PXRRxoA0oh3JNg_0Z4W_Csuqzr5P2hd9pqT9LTOWqN7ae2w&s=10",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 11,
+    "modelo": "Ford Escape Hybrid",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 190000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ99oWc5EpSV5UvHUp8mqlDZ3NlkR5Sm4nMvnDARU8Jbw&s=10",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 12,
+    "modelo": "Hyundai Tucson Travel",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 175000,
+    "imagen": "https://autolab.com.co/wp-content/uploads/2022/04/RGTG.png",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 13,
+    "modelo": "Toyota SW4 Fortuner",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 320000,
+    "imagen": "https://media.toyota.com.ve/6873a401-e5cb-4d09-bf9f-bda99e0ed0c0.png",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 14,
+    "modelo": "Renault Sandero Zen",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 85000,
+    "imagen": "https://renaultalmotores.com/wp-content/uploads/2025/07/renault-sandero-life-plus-gris-estrella.webp",
+    "ubicacion": "Manizales",
+    "disponible": true
+  },
+  {
+    "id": 15,
+    "modelo": "Mazda CX-30",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 150000,
+    "imagen": "https://autolab.com.co/wp-content/uploads/2022/06/ygft.png",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 16,
+    "modelo": "Suzuki Vitara GL+",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 125000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnhF-m4uYq-Squ_mmr5UCliLFVJz31XASq0quksDXs0wJSu6sulx60XvU&s=10",
+    "ubicacion": "Medellín",
+    "disponible": false
+  },
+  {
+    "id": 17,
+    "modelo": "Nissan Frontier Pro-4X",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 280000,
+    "imagen": "https://vehicle-images.carscommerce.inc/stock-images/chrome/f3985f331d5b688879a31945735a34bb.png",
+    "ubicacion": "Bucaramanga",
+    "disponible": true
+  },
+  {
+    "id": 18,
+    "modelo": "Volkswagen Gol Comfortline",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 75000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZYA4yKSGd2D0JCVNQ2JJUZIcuPiqAmZy8ZCur9QDMPhQQXtP-uQEtcE&s=10",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 19,
+    "modelo": "Kia Seltos Emotion",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 160000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeB9CPkSuCULa_pc5_twufwpZ-4KFX0Dfj_4p0TNOsjw&s=10",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 20,
+    "modelo": "Ford Ranger 4x4",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 300000,
+    "imagen": "https://www.ford.com.co/content/dam/na/ford/es_co/nameplate/ranger/2026/models/xl-4x4/settings/fco-ranger-2026-modelwalk-tactica-xl-4X4.png",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 21,
+    "modelo": "Chevrolet Joy Hatchback",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 70000,
+    "imagen": "https://renault.juanautos.com.co/wp-content/uploads/sites/2/2026/06/juanautos-renew-chevrolet-joy-hatchback-1.webp",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 22,
+    "modelo": "Toyota RAV4 Hybrid",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 230000,
+    "imagen": "https://www.novamotors.com.co/wp-content/uploads/2021/01/Toyota-Rav4-Hybrid-super-blanco-Novamotors-2021.png",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 23,
+    "modelo": "Mazda 2 Touring",
+    "tipo": "Automóvil",
+    "transmision": "Automática",
+    "precioPorDia": 100000,
+    "imagen": "https://www.elcarrocolombiano.com/wp-content/uploads/2024/02/20240213-MAZDA-2-GRAND-TOURING-LX-CARBON-EDITION-2-LITROS-COLOMBIA-PRECIO-DATOS-02.jpg",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 24,
+    "modelo": "Renault Kwid Intens",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 65000,
+    "imagen": "https://www.renaultnorteysur.com/wp-content/uploads/2025/05/kwid-intens-co.webp",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 25,
+    "modelo": "Hyundai HB20 Space",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 90000,
+    "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_6856f48eaa3349599fcd474ac90ecdb7.webp",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 26,
+    "modelo": "Nissan Versa Exclusive",
+    "tipo": "Automóvil",
+    "transmision": "Automática",
+    "precioPorDia": 110000,
+    "imagen": "https://www.repartes.com/blog/fallas-comunes-nissan-versa.jpg",
+    "ubicacion": "Barranquilla",
+    "disponible": false
+  },
+  {
+    "id": 27,
+    "modelo": "Jeep Renegade Sport",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 165000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRcYOdWAiL4AvZS8sm0OhwWnHeuTk-mpgc_-ldgVa-cw&s=10",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 28,
+    "modelo": "Fiat Pulse Audace",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 120000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5OzAd0SUG39xP4FiTNJRfnQtFxBRCWyc9jqODQUQ-6ZS_ljyJfMG-1I&s=10",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 29,
+    "modelo": "Chery Tiggo 7 Pro",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 140000,
+    "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_52b7b593293249f0a4d381903e014311.webp",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 30,
+    "modelo": "JAC JS4 Luxury",
+    "tipo": "Camioneta",
+    "transmision": "Mecánica",
+    "precioPorDia": 115000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvjJInXpjNNu8rQl8IMaUxSFo8TPM8hVKsJ_X65lKIJXksGUKtV_0ODDZM&s=10",
+    "ubicacion": "Bucaramanga",
+    "disponible": true
+  },
+  {
+    "id": 31,
+    "modelo": "Haval Jolion Intelligent",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 135000,
+    "imagen": "https://satelitalautomotriz.com/dercocenter/wp-content/uploads/2024/03/JOLION-blanco.jpg",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 32,
+    "modelo": "Peugeot 2008 Allure",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 130000,
+    "imagen": "https://orangeclub.co/wp-content/uploads/2026/06/Peugeot-2008-Allure-Hybrid.jpg",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 33,
+    "modelo": "Citroën C3 Feel",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 85000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8oGB3MMS9cdPO0yT9j8YxmTHhqcnijzGZsz-i5ycffSRgA-azV8KGIQh&s=10",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 34,
+    "modelo": "Renault Captur Iconic",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 145000,
+    "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2022/03/31/6245c46862cb9.jpeg",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": false
+  },
+  {
+    "id": 35,
+    "modelo": "Toyota Yaris Cross",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 160000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbpNwHHW3eTXiAGSeHJgq9QwhE5pDHrOLbkV5pOKf1IpiX2xE3Xo_3M_4&s=10",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 36,
+    "modelo": "Mazda CX-60 Signature",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 350000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ539KW9LQthy54anwuiVLm2Xhwp0K3_Byeg-CI547DNw&s=10",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 37,
+    "modelo": "Chevrolet Blazer RS",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 280000,
+    "imagen": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 38,
+    "modelo": "Ford Explorer Limited",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 380000,
+    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 39,
+    "modelo": "Kia Niro Hybrid",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 180000,
+    "imagen": "https://images.unsplash.com/photo-1541348263662-e0626628d0cf?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 40,
+    "modelo": "Hyundai Creta Premium",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 140000,
+    "imagen": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 41,
+    "modelo": "Nissan X-Trail e-Power",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 240000,
+    "imagen": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Barranquilla",
+    "disponible": true
+  },
+  {
+    "id": 42,
+    "modelo": "Volkswagen Nivus Highline",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 135000,
+    "imagen": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 43,
+    "modelo": "Subaru XV Crosstrek",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 170000,
+    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 44,
+    "modelo": "Mitsubishi Montero Sport",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 310000,
+    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Cali",
+    "disponible": false
+  },
+  {
+    "id": 45,
+    "modelo": "Toyota Land Cruiser Prado",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 450000,
+    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 46,
+    "modelo": "Mazda CX-90",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 390000,
+    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 47,
+    "modelo": "Renault Stepway Iconic",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 95000,
+    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 48,
+    "modelo": "Chevrolet Equinox RS",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 185000,
+    "imagen": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 49,
+    "modelo": "Kia Sorento Zenith",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 260000,
+    "imagen": "https://images.unsplash.com/photo-1541348263662-e0626628d0cf?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 50,
+    "modelo": "Ford Edge Titanium",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 210000,
+    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": false
+  },
+  {
+    "id": 51,
+    "modelo": "Hyundai Santa Fe Calligraphy",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 250000,
+    "imagen": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 52,
+    "modelo": "Nissan Qashqai Exclusive",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 165000,
+    "imagen": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 53,
+    "modelo": "Volkswagen Taos Comfortline",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 175000,
+    "imagen": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 54,
+    "modelo": "Suzuki Swift Hybrid",
+    "tipo": "Automóvil",
+    "transmision": "Mecánica",
+    "precioPorDia": 90000,
+    "imagen": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 55,
+    "modelo": "Toyota Corolla Seg",
+    "tipo": "Automóvil",
+    "transmision": "Automática",
+    "precioPorDia": 130000,
+    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 56,
+    "modelo": "Mazda MX-5 Convertible",
+    "tipo": "Deportivo",
+    "transmision": "Automática",
+    "precioPorDia": 220000,
+    "imagen": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 57,
+    "modelo": "Renault Megane E-Tech",
+    "tipo": "Automóvil",
+    "transmision": "Automática",
+    "precioPorDia": 250000,
+    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 58,
+    "modelo": "Chevrolet Silverado Z71",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 360000,
+    "imagen": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Villavicencio",
+    "disponible": true
+  },
+  {
+    "id": 59,
+    "modelo": "Kia Carnival Luxury",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 340000,
+    "imagen": "https://images.unsplash.com/photo-1541348263662-e0626628d0cf?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": false
+  },
+  {
+    "id": 60,
+    "modelo": "Ford F-150 Lariat",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 480000,
+    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 61,
+    "modelo": "Hyundai Ioniq 5 EV",
+    "tipo": "Automóvil",
+    "transmision": "Automática",
+    "precioPorDia": 310000,
+    "imagen": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 62,
+    "modelo": "Audi Q3 S-Line",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 280000,
+    "imagen": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 63,
+    "modelo": "Mercedes-Benz GLA 200",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 300000,
+    "imagen": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 64,
+    "modelo": "BMW Serie 3 330i",
+    "tipo": "Automóvil",
+    "transmision": "Automática",
+    "precioPorDia": 320000,
+    "imagen": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 65,
+    "modelo": "Volvo XC40 Recharge",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 310000,
+    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 66,
+    "modelo": "Porsche Macan GTS",
+    "tipo": "Deportivo",
+    "transmision": "Automática",
+    "precioPorDia": 650000,
+    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 67,
+    "modelo": "Chevrolet Tracker Turbo RS",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 140000,
+    "imagen": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 68,
+    "modelo": "Renault Sandero RS",
+    "tipo": "Deportivo",
+    "transmision": "Mecánica",
+    "precioPorDia": 110000,
+    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 69,
+    "modelo": "Mazda CX-3 Grand Touring",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 135000,
+    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 70,
+    "modelo": "Toyota Corolla Cross Hybrid",
+    "tipo": "Camioneta",
+    "transmision": "Automática",
+    "precioPorDia": 170000,
+    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  }
+]

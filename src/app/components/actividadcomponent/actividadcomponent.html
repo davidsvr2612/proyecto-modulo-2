@@ -1,0 +1,40 @@
+<div class="container my-5">
+  <div class="text-center mb-5">
+    <h1 class="fw-bold text-dark">Actividades Turísticas</h1>
+    <p class="text-muted">Encuentra experiencias inolvidables para disfrutar tu viaje al máximo.</p>
+  </div>
+
+  <div class="row g-4">
+    @for (act of listaActividades; track act.id) {
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+          <div class="position-relative">
+            <img [src]="act.imagen" class="card-img-top" [alt]="act.nombre" style="height: 220px; object-fit: cover;">
+            <span class="badge bg-dark position-absolute top-0 end-0 m-3 px-3 py-2">
+              {{ act.ubicacion }}
+            </span>
+          </div>
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold text-primary">{{ act.nombre }}</h5>
+            <p class="card-text text-muted small mb-3">{{ act.descripcion }}</p>
+
+            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top">
+              <div>
+                <span class="text-muted small d-block">Precio por persona</span>
+                <strong class="text-success fs-5">{{ act.precio | currency:'COP':'symbol':'1.0-0' }}</strong>
+              </div>
+              <button class="btn btn-primary px-4 rounded-pill" (click)="seleccionarActividad(act.id)">
+                Reservar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    } @empty {
+      <div class="col-12 text-center py-5">
+        <p class="text-muted">No hay actividades disponibles en este momento.</p>
+      </div>
+    }
+  </div>
+</div>
