@@ -6,23 +6,23 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-actividadcomponent',
   standalone: false,
-  styleUrl: './actividad.component.css',
-  templateUrl: './actividad.component.html',
+  styleUrl: './actividadcomponent.css',
+  templateUrl: './actividadcomponent.html'
 })
 export class Actividadcomponent implements OnInit {
   private actividadservice = inject(Actividadservice);
   private cdr = inject(ChangeDetectorRef);
   private router = inject(Router);
 
-  listaActividad: Actividad[] = [];
+  listaActividades: Actividad[] = [];
 
   ngOnInit(): void {
     this.actividadservice.getActividades().subscribe({
-      next: (data) => {
-        this.listaActividad = data;
+      next: (data: Actividad[]) => {
+        this.listaActividades = data;
         this.cdr.markForCheck();
       },
-      error: (err) => {
+      error: (err: unknown) => {
         console.error('Error al cargar las actividades', err);
       }
     });
