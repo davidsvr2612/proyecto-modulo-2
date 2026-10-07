@@ -5,7 +5,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 120000,
-    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "imagen":"https://www.renaultnorteysur.com/wp-content/uploads/2024/09/renault-duster-iconic-4x4-blanco-glaciar.webp",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -15,7 +15,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 95000,
-    "imagen": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt1kw9ExFRpUQVPLgBzact7xmwEDBFA5sDkuXLauNOyw&s=10",
     "ubicacion": "Medellín",
     "disponible": true
   },
@@ -25,7 +25,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 180000,
-    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRR5rXYGQIjypCtHFcHQ7KLJ4tABkXbIrCGWlIAjBoyVCEjCq5UbOJU3Cp&s=10  ",
     "ubicacion": "Cali",
     "disponible": true
   },
@@ -35,7 +35,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 250000,
-    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://yokomotor.com.co/toyota/wp-content/uploads/sites/2/2025/05/yokomotor-toyota-hilux-2-4-super-blanco.webp",
     "ubicacion": "Bogotá D.C.",
     "disponible": false
   },
@@ -45,7 +45,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 75000,
-    "imagen": "https://images.unsplash.com/photo-1541348263662-e0626628d0cf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWX0s5qkFFpgu_fxpeSgCIwqy-onOGKPFwy7Wgl2ORAYXSUy5SUE9WN17J&s=10",
     "ubicacion": "Bucaramanga",
     "disponible": true
   },
@@ -55,7 +55,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 135000,
-    "imagen": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzbNxwd9HsN2XI1D59_cMNupwpR3PrrhAb1Xiyj9OX_Kz88GrIUjN4hbg&s=10",
     "ubicacion": "Cartagena",
     "disponible": true
   },
@@ -65,7 +65,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 140000,
-    "imagen": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://growing-book-496d1c5ffa.media.strapiapp.com/t_cross_trend_200_4afd7c330e.webp",
     "ubicacion": "Medellín",
     "disponible": true
   },
@@ -75,7 +75,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 130000,
-    "imagen": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5M-5BS1d3hFxTkkL4iTEggjU0e_leXTkYa0aWZ3vFg&s=10",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -85,7 +85,7 @@
     "tipo": "Automóvil",
     "transmision": "Automática",
     "precioPorDia": 145000,
-    "imagen": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0UuuIq2cI5nwP4yYJqQN8DKz3SRMLRtoe83bVn69AFp7ada-3ECyKMYI&s=10",
     "ubicacion": "Cali",
     "disponible": true
   },
@@ -95,7 +95,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 80000,
-    "imagen": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfLFKKZS24PXRRxoA0oh3JNg_0Z4W_Csuqzr5P2hd9pqT9LTOWqN7ae2w&s=10",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -105,7 +105,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 190000,
-    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ99oWc5EpSV5UvHUp8mqlDZ3NlkR5Sm4nMvnDARU8Jbw&s=10",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -115,7 +115,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 175000,
-    "imagen": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://autolab.com.co/wp-content/uploads/2022/04/RGTG.png",
     "ubicacion": "Medellín",
     "disponible": true
   },
@@ -125,7 +125,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 320000,
-    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://media.toyota.com.ve/6873a401-e5cb-4d09-bf9f-bda99e0ed0c0.png",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -135,7 +135,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 85000,
-    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://renaultalmotores.com/wp-content/uploads/2025/07/renault-sandero-life-plus-gris-estrella.webp",
     "ubicacion": "Manizales",
     "disponible": true
   },
@@ -145,7 +145,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 150000,
-    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://autolab.com.co/wp-content/uploads/2022/06/ygft.png",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -155,7 +155,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 125000,
-    "imagen": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnhF-m4uYq-Squ_mmr5UCliLFVJz31XASq0quksDXs0wJSu6sulx60XvU&s=10",
     "ubicacion": "Medellín",
     "disponible": false
   },
@@ -165,7 +165,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 280000,
-    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://vehicle-images.carscommerce.inc/stock-images/chrome/f3985f331d5b688879a31945735a34bb.png",
     "ubicacion": "Bucaramanga",
     "disponible": true
   },
@@ -175,7 +175,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 75000,
-    "imagen": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZYA4yKSGd2D0JCVNQ2JJUZIcuPiqAmZy8ZCur9QDMPhQQXtP-uQEtcE&s=10",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -185,7 +185,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 160000,
-    "imagen": "https://images.unsplash.com/photo-1541348263662-e0626628d0cf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeB9CPkSuCULa_pc5_twufwpZ-4KFX0Dfj_4p0TNOsjw&s=10",
     "ubicacion": "Cali",
     "disponible": true
   },
@@ -195,7 +195,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 300000,
-    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://www.ford.com.co/content/dam/na/ford/es_co/nameplate/ranger/2026/models/xl-4x4/settings/fco-ranger-2026-modelwalk-tactica-xl-4X4.png",
     "ubicacion": "Medellín",
     "disponible": true
   },
@@ -205,7 +205,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 70000,
-    "imagen": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://renault.juanautos.com.co/wp-content/uploads/sites/2/2026/06/juanautos-renew-chevrolet-joy-hatchback-1.webp",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -215,7 +215,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 230000,
-    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://www.novamotors.com.co/wp-content/uploads/2021/01/Toyota-Rav4-Hybrid-super-blanco-Novamotors-2021.png",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -225,7 +225,7 @@
     "tipo": "Automóvil",
     "transmision": "Automática",
     "precioPorDia": 100000,
-    "imagen": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://www.elcarrocolombiano.com/wp-content/uploads/2024/02/20240213-MAZDA-2-GRAND-TOURING-LX-CARBON-EDITION-2-LITROS-COLOMBIA-PRECIO-DATOS-02.jpg",
     "ubicacion": "Medellín",
     "disponible": true
   },
@@ -235,7 +235,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 65000,
-    "imagen": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://www.renaultnorteysur.com/wp-content/uploads/2025/05/kwid-intens-co.webp",
     "ubicacion": "Cali",
     "disponible": true
   },
@@ -245,7 +245,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 90000,
-    "imagen": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_6856f48eaa3349599fcd474ac90ecdb7.webp",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -255,7 +255,7 @@
     "tipo": "Automóvil",
     "transmision": "Automática",
     "precioPorDia": 110000,
-    "imagen": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://www.repartes.com/blog/fallas-comunes-nissan-versa.jpg",
     "ubicacion": "Barranquilla",
     "disponible": false
   },
@@ -265,7 +265,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 165000,
-    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRcYOdWAiL4AvZS8sm0OhwWnHeuTk-mpgc_-ldgVa-cw&s=10",
     "ubicacion": "Medellín",
     "disponible": true
   },
@@ -275,7 +275,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 120000,
-    "imagen": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5OzAd0SUG39xP4FiTNJRfnQtFxBRCWyc9jqODQUQ-6ZS_ljyJfMG-1I&s=10",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -285,7 +285,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 140000,
-    "imagen": "https://images.unsplash.com/photo-1541348263662-e0626628d0cf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_52b7b593293249f0a4d381903e014311.webp",
     "ubicacion": "Cali",
     "disponible": true
   },
@@ -295,7 +295,7 @@
     "tipo": "Camioneta",
     "transmision": "Mecánica",
     "precioPorDia": 115000,
-    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvjJInXpjNNu8rQl8IMaUxSFo8TPM8hVKsJ_X65lKIJXksGUKtV_0ODDZM&s=10",
     "ubicacion": "Bucaramanga",
     "disponible": true
   },
@@ -305,7 +305,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 135000,
-    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://satelitalautomotriz.com/dercocenter/wp-content/uploads/2024/03/JOLION-blanco.jpg",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
@@ -315,7 +315,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 130000,
-    "imagen": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://orangeclub.co/wp-content/uploads/2026/06/Peugeot-2008-Allure-Hybrid.jpg",
     "ubicacion": "Medellín",
     "disponible": true
   },
@@ -325,7 +325,7 @@
     "tipo": "Automóvil",
     "transmision": "Mecánica",
     "precioPorDia": 85000,
-    "imagen": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8oGB3MMS9cdPO0yT9j8YxmTHhqcnijzGZsz-i5ycffSRgA-azV8KGIQh&s=10",
     "ubicacion": "Cali",
     "disponible": true
   },
@@ -335,7 +335,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 145000,
-    "imagen": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2022/03/31/6245c46862cb9.jpeg",
     "ubicacion": "Bogotá D.C.",
     "disponible": false
   },
@@ -345,7 +345,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 160000,
-    "imagen": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbpNwHHW3eTXiAGSeHJgq9QwhE5pDHrOLbkV5pOKf1IpiX2xE3Xo_3M_4&s=10",
     "ubicacion": "Medellín",
     "disponible": true
   },
@@ -355,7 +355,7 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 350000,
-    "imagen": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ539KW9LQthy54anwuiVLm2Xhwp0K3_Byeg-CI547DNw&s=10",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
