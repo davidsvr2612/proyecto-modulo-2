@@ -1,0 +1,87 @@
+<div class="container mt-4">
+  <h2 class="mb-4">Explorar Alojamientos</h2>
+
+  <div class="card mb-4 shadow-sm bg-light">
+    <div class="card-body">
+      <h5 class="card-title mb-3">Filtros de Búsqueda</h5>
+      <div class="row g-3">
+
+        <div class="col-md-3">
+          <label class="form-label">Ciudad</label>
+          <select class="form-select" [(ngModel)]="filtroCiudad" (change)="aplicarFiltros()">
+            <option value="">Todas las ciudades</option>
+            <option *ngFor="let ciudad of ciudadesDisponibles" [value]="ciudad">{{ ciudad }}</option>
+          </select>
+        </div>
+
+        <div class="col-md-2">
+          <label class="form-label">Huéspedes</label>
+          <input type="number" class="form-control" placeholder="Ej: 2" min="1"
+                 [(ngModel)]="filtroHuespedes" (input)="aplicarFiltros()">
+        </div>
+
+        <div class="col-md-3">
+          <label class="form-label">Tipo de Alojamiento</label>
+          <select class="form-select" [(ngModel)]="filtroTipo" (change)="aplicarFiltros()">
+            <option value="">Todos los tipos</option>
+            <option *ngFor="let tipo of tiposDisponibles" [value]="tipo">{{ tipo }}</option>
+          </select>
+        </div>
+
+        <div class="col-md-2">
+          <label class="form-label">Precio Máx.</label>
+          <input type="number" class="form-control" placeholder="Ej: 500000" min="0"
+                 [(ngModel)]="filtroPrecioMax" (input)="aplicarFiltros()">
+        </div>
+
+        <div class="col-md-2 d-flex align-items-end">
+          <button class="btn btn-outline-secondary w-100" (click)="limpiarFiltros()">
+            Limpiar Filtros
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 text-center mt-4" *ngIf="alojamientosFiltrados.length === 0">
+      <div class="alert alert-info" role="alert">
+        No se encontraron alojamientos que coincidan con tu búsqueda.
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4" *ngFor="let aloja of alojamientosFiltrados">
+      <div class="card h-100 shadow-sm">
+        <img [src]="aloja.imagenPrincipal" class="card-img-top" alt="{{ aloja.nombre }}" style="height: 200px; object-fit: cover;">
+
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">{{ aloja.nombre }}</h5>
+
+          <p class="card-text text-muted small mb-2">
+            <i class="bi bi-geo-alt-fill"></i> {{ aloja.ciudad }} | {{ aloja.tipo }}
+          </p>
+
+          <ul class="list-unstyled small mb-3">
+            <li><strong>Capacidad:</strong> {{ aloja.capacidad }} personas</li>
+            <li><strong>Precio:</strong> $ {{ aloja.precioNoche | number }} / noche</li>
+            <li><strong>Calificación:</strong> ★ {{ aloja.calificacion }}</li>
+          </ul>
+
+          <div class="mb-3">
+            <span class="badge bg-info text-dark me-1" *ngFor="let serv of aloja.servicios | slice:0:3">
+              {{ serv }}
+            </span>
+            <span class="text-muted small" *ngIf="aloja.servicios.length > 3">+{{ aloja.servicios.length - 3 }} más</span>
+          </div>
+
+          <div class="mt-auto">
+            <a [routerLink]="['/detalle', aloja.id]" class="btn btn-primary w-100">
+              Ver Detalle
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
