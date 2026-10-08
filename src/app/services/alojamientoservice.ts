@@ -8,7 +8,6 @@ import { Alojamientomodel, Resena } from '../models/alojamientomodel';
   providedIn: 'root',
 })
 export class AlojamientoService {
-  private readonly APIFY_TOKEN: string = 'apify_api_vFewJiOcbFxRgAeOpbNHsdp7W9i8Gz0jTbcz';
   private readonly BASE_URL = 'https://romy--airbnb-all-in-one-api.apify.actor';
 
   private readonly MARKET = 'CO';
@@ -23,7 +22,6 @@ export class AlojamientoService {
     adults: number = 1,
   ): Observable<Alojamientomodel[]> {
     const params = new HttpParams()
-      .set('token', this.APIFY_TOKEN)
       .set('query', query)
       .set('checkin', checkin)
       .set('checkout', checkout)
@@ -41,7 +39,6 @@ export class AlojamientoService {
 
   obtenerDetalleAlojamiento(listingId: string): Observable<Alojamientomodel> {
     const params = new HttpParams()
-      .set('token', this.APIFY_TOKEN)
       .set('listing_id', listingId)
       .set('market', this.MARKET)
       .set('currency', this.CURRENCY);
@@ -53,7 +50,6 @@ export class AlojamientoService {
 
   obtenerResenas(listingId: string, limit: number = 20): Observable<Resena[]> {
     const params = new HttpParams()
-      .set('token', this.APIFY_TOKEN)
       .set('listing_id', listingId)
       .set('limit', limit.toString());
 
