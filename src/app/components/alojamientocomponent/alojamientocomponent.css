@@ -1,0 +1,37 @@
+:host { display: block; }
+.card { transition: transform .2s ease, box-shadow .2s ease; }
+.card:hover { transform: translateY(-3px); }
+
+#gohomeCarousel .carousel-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(20, 35, 43, .82), rgba(20, 35, 43, .22));
+}
+
+#gohomeCarousel .carousel-caption {
+  right: 12%;
+  left: 12%;
+  bottom: 0;
+  top: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+}
+
+#gohomeCarousel .carousel-caption h2 { color: #ffffff; }
+
+#gohomeCarousel .carousel-caption p {
+  max-width: 650px;
+}
+
+@media (max-width: 576px) {
+  #gohomeCarousel .carousel-item img { height: 340px; }
+  #gohomeCarousel .carousel-caption { left: 10%; right: 10%; }
+  #gohomeCarousel .carousel-caption h1,
+  #gohomeCarousel .carousel-caption h2 { font-size: 2rem; }
+  #gohomeCarousel .carousel-caption h2 { color: #ffffff; }
+
+#gohomeCarousel .carousel-caption p { font-size: 1rem; }
+}
+

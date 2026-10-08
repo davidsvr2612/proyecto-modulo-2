@@ -1,0 +1,40 @@
+<div class="container my-5">
+  <div class="text-center mb-5">
+    <h1 class="fw-bold text-dark">Mis reservas</h1>
+    <p class="text-muted">Consulta las reservas que has realizado en Gohome.</p>
+  </div>
+  @if (reservas.length) {
+    <div class="row g-4">
+      @for (reserva of reservas; track reserva.id) {
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm border-0 rounded-4 p-4">
+            <div class="d-flex justify-content-between align-items-start gap-3">
+              <div><h5 class="fw-bold text-primary">{{ reserva.tipo ? (reserva.tipo + ' · ') : '' }}{{ reserva.alojamiento }}</h5><p class="text-muted mb-0">{{ reserva.ciudad }}</p></div>
+              <span class="badge bg-success">{{ reserva.estado }}</span>
+            </div>
+            <hr>
+            <div class="row g-3">
+              <div class="col-6"><span class="small text-muted d-block">Llegada</span><strong>{{ reserva.fechaLlegada }}</strong></div>
+              <div class="col-6"><span class="small text-muted d-block">{{ reserva.tipo === 'Actividad' ? 'Fecha' : reserva.tipo === 'Vehículo' ? 'Devolución' : 'Salida' }}</span><strong>{{ reserva.fechaSalida }}</strong></div>
+              <div class="col-6"><span class="small text-muted d-block">Huéspedes</span><strong>{{ reserva.huespedes }}</strong></div>
+              <div class="col-6"><span class="small text-muted d-block">Noches</span><strong>{{ reserva.noches }}</strong></div>
+              <div class="col-12"><span class="small text-muted d-block">Valor total</span><strong class="fs-4 text-success">{{ reserva.total | currency:'COP':'symbol':'1.0-0' }}</strong></div>
+              <div class="col-12"><span class="small text-muted d-block">Huésped</span>{{ reserva.nombreHuesped }} · {{ reserva.correo }}</div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <small class="text-muted">Código: {{ reserva.id }}</small>
+              <button class="btn btn-outline-danger btn-sm rounded-pill" (click)="eliminarReserva(reserva.id)">Quitar de la lista</button>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  } @else {
+    <div class="text-center py-5">
+      <div class="display-3 text-muted mb-3"><i class="fa-regular fa-calendar-xmark"></i></div>
+      <h4 class="fw-bold">Todavía no tienes reservas</h4>
+      <p class="text-muted">Cuando reserves un alojamiento, vehículo o actividad, aparecerá aquí.</p>
+      <a routerLink="/alojamientos" class="btn btn-primary rounded-pill px-4">Explorar alojamientos</a>
+    </div>
+  }
+</div>

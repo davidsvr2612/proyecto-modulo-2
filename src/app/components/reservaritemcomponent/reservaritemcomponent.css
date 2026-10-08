@@ -1,0 +1,3 @@
+:host { display: block; }
+.container > a { color: var(--gohome-primary); font-weight: 600; }
+.container > .row .card { border: 1px solid var(--gohome-border); box-shadow: var(--gohome-shadow); }
