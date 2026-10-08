@@ -6,9 +6,17 @@ import { Footercomponent } from './components/footercomponent/footercomponent';
 import { Navbarcomponent } from './components/navbarcomponent/navbarcomponent';
 import { Vehiculocomponent } from './components/vehiculocomponent/vehiculocomponent';
 import { Actividadcomponent } from './components/actividadcomponent/actividadcomponent';
+import { Logincomponent } from './components/logincomponent/logincomponent';
 
 @NgModule({
-  declarations: [App, Footercomponent, Navbarcomponent, Vehiculocomponent, Actividadcomponent],
+  declarations: [
+    App,
+    Footercomponent,
+    Navbarcomponent,
+    Vehiculocomponent,
+    Actividadcomponent,
+    Logincomponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
