@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { Alojamientoservice } from '../../services/alojamientoservice';
 import { Alojamientomodel } from '../../models/alojamientomodel';
+import { AlojamientoService } from '../../services/alojamientoservice';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-iniciocomponent',
@@ -9,22 +9,22 @@ import { Alojamientomodel } from '../../models/alojamientomodel';
   styleUrl: './iniciocomponent.css',
   templateUrl: './iniciocomponent.html',
 })
-export class Iniciocomponent implements OnInit {
-  destacados: Alojamientomodel[] = [];
+export class Iniciocomponent {
+  constructor(private router: Router) {}
 
-  constructor(
-    private alojamientoService: Alojamientoservice,
-    private router: Router,
-  ) {}
-
-  ngOnInit(): void {
-    this.alojamientoService.getDestacados().subscribe({
-      next: (data) => (this.destacados = data),
-      error: (err) => console.error('Error cargando destacados', err),
-    });
+  buscarAlojamientos(): void {
+    this.router.navigate(['/alojamientos']);
   }
 
-  irABusqueda(): void {
-    this.router.navigate(['/listado']);
+  irAVehiculos(): void {
+    this.router.navigate(['/vehiculos']);
+  }
+
+  irAActividades(): void {
+    this.router.navigate(['/actividades']);
+  }
+
+  irAReservas(): void {
+    this.router.navigate(['/reservas']);
   }
 }

@@ -13,14 +13,22 @@ export class AlojamientoService {
 
   /**
    * El constructor inicializa el cliente con tus credenciales seguras.
-   */
-  constructor(config: ClientConfig) {
+
+  /*constructor(config: ClientConfig) {
     if (!config.token) {
       throw new Error('El token de Apify es obligatorio para inicializar el cliente.');
     }
     this.token = config.token;
     // Si no se pasa una baseUrl, usamos la del Actor Standby que ya probaste por defecto
     this.baseUrl = config.baseUrl || 'https://apify.actor';
+  }*/
+
+  constructor(p1: string, p2?: string ) {
+    if (!p1) {
+      throw new Error('El token de Apify es obligatorio');
+    }
+    this.token = p1;
+    this.baseUrl = p2 || 'https://apify.actor';
   }
 
   /**
