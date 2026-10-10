@@ -5,8 +5,58 @@
   </div>
 
 
+  <div class="card border-0 shadow-sm rounded-4 p-3 p-md-4 mb-4">
+    <div class="row g-3 align-items-end">
+      <div class="col-md-3">
+        <label class="form-label">Ciudad</label>
+        <select class="form-select" [(ngModel)]="ciudadSeleccionada">
+          <option value="">Todas las ciudades</option>
+          @for (ciudad of ciudadesDisponibles; track ciudad) {
+            <option [value]="ciudad">{{ ciudad }}</option>
+          }
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label">Tipo de vehículo</label>
+        <select class="form-select" [(ngModel)]="tipoSeleccionado">
+          <option value="">Todos los tipos</option>
+          @for (tipo of tiposDisponibles; track tipo) {
+            <option [value]="tipo">{{ tipo }}</option>
+          }
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label">Transmisión</label>
+        <select class="form-select" [(ngModel)]="transmisionSeleccionada">
+          <option value="">Todas</option>
+          @for (transmision of transmisionesDisponibles; track transmision) {
+            <option [value]="transmision">{{ transmision }}</option>
+          }
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label">Precio máximo por día</label>
+        <input type="number" min="0" class="form-control" [(ngModel)]="precioMaximo" placeholder="COP / día">
+      </div>
+      <div class="col-md-3 d-grid">
+        <button class="btn btn-outline-secondary rounded-pill" type="button" (click)="limpiarFiltros()">Limpiar filtros</button>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="soloDisponibles" [(ngModel)]="soloDisponibles">
+          <label class="form-check-label" for="soloDisponibles">Mostrar solo vehículos disponibles</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="h5 fw-bold mb-0">Vehículos disponibles</h2>
+    <span class="text-muted small">{{ vehiculosFiltrados.length }} opciones</span>
+  </div>
+
   <div class="row g-4">
-    @for (auto of listaVehiculos; track auto.id) {
+    @for (auto of vehiculosFiltrados; track auto.id) {
       <div class="col-md-4">
         <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
 
