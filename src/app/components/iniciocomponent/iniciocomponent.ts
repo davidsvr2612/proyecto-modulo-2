@@ -1,11 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { Alojamientomodel } from '../../models/alojamientomodel';
-import { AlojamientoService } from '../../services/alojamientoservice';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-iniciocomponent',
-  standalone: false,
+  standalone: true,
   styleUrl: './iniciocomponent.css',
   templateUrl: './iniciocomponent.html',
 })

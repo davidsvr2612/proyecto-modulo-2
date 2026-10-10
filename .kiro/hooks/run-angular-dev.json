@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run Angular Dev Server",
+      "trigger": "SessionStart",
+      "description": "Inicia el servidor de desarrollo de Angular y abre el navegador automáticamente",
+      "action": {
+        "type": "command",
+        "command": "cd \"C:\\Users\\letia\\Downloads\\Proyecto DSI\" && npx ng serve --open"
+      }
+    }
+  ]
+}
