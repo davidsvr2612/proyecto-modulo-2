@@ -1,1 +1,125 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --gohome-primary: #2563eb;
+  --gohome-primary-dark: #1d4ed8;
+  --gohome-primary-soft: #eff6ff;
+  --gohome-accent: #0f766e;
+  --gohome-accent-soft: #ccfbf1;
+  --gohome-page: #f5f7fb;
+  --gohome-surface: #ffffff;
+  --gohome-text: #172033;
+  --gohome-muted: #667085;
+  --gohome-border: #e4e9f1;
+  --gohome-shadow: 0 0.5rem 1.5rem rgba(23, 32, 51, 0.08);
+  --gohome-success: #15803d;
+  --gohome-danger: #b42318;
+  --gohome-carousel-text: #ffffff;
+  --bs-primary: var(--gohome-primary);
+  --bs-primary-rgb: 37, 99, 235;
+  --bs-success: var(--gohome-success);
+  --bs-success-rgb: 21, 128, 61;
+  --bs-body-color: var(--gohome-text);
+  --bs-body-bg: var(--gohome-page);
+  --bs-secondary-color: var(--gohome-muted);
+  --bs-border-color: var(--gohome-border);
+  --bs-link-color: var(--gohome-primary);
+  --bs-link-hover-color: var(--gohome-primary-dark);
+}
+
+body {
+  background-color: var(--gohome-page);
+  color: var(--gohome-text);
+}
+
+.navbar.bg-dark {
+  background-color: var(--gohome-text);
+}
+
+.navbar .nav-link:hover, .navbar .nav-link.active {
+  color: var(--gohome-primary-soft);
+}
+
+.card {
+  border-color: var(--gohome-border);
+  background-color: var(--gohome-surface);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--gohome-text);
+}
+
+#gohomeCarousel .carousel-caption h1,
+#gohomeCarousel .carousel-caption h2,
+#gohomeCarousel .carousel-caption p {
+  color: var(--gohome-carousel-text);
+}
+
+.text-primary {
+  color: var(--gohome-primary);
+}
+
+.text-success {
+  color: var(--gohome-success);
+}
+
+.text-dark {
+  color: var(--gohome-text);
+}
+
+.text-muted, .text-body-secondary {
+  color: var(--gohome-muted);
+}
+
+.bg-dark {
+  background-color: var(--gohome-text);
+}
+
+.bg-success {
+  background-color: var(--gohome-success);
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--gohome-primary);
+  --bs-btn-border-color: var(--gohome-primary);
+  --bs-btn-hover-bg: var(--gohome-primary-dark);
+  --bs-btn-hover-border-color: var(--gohome-primary-dark);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--gohome-primary);
+  --bs-btn-border-color: var(--gohome-primary);
+  --bs-btn-hover-bg: var(--gohome-primary);
+  --bs-btn-hover-border-color: var(--gohome-primary);
+}
+
+.btn-success {
+  --bs-btn-bg: var(--gohome-success);
+  --bs-btn-border-color: var(--gohome-success);
+}
+
+.form-control, .form-select {
+  border-color: var(--gohome-border);
+  background-color: var(--gohome-surface);
+  color: var(--gohome-text);
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--gohome-primary);
+}
+
+.form-check-input:checked {
+  background-color: var(--gohome-primary);
+  border-color: var(--gohome-primary);
+}
+
+.badge.bg-dark {
+  background-color: var(--gohome-text);
+}
+
+.badge.bg-success {
+  background-color: var(--gohome-success);
+}
+
+footer {
+  color: var(--gohome-muted);
+  border-color: var(--gohome-border);
+}
