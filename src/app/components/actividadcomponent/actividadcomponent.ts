@@ -18,6 +18,24 @@ export class ActividadcomponentComponent implements OnInit, AfterViewInit {
 
   listaActividades: Actividad[] = [];
   private map: any; // Instancia del mapa
+  ciudadSeleccionada = '';
+  precioMaximo = '';
+
+  get ciudadesDisponibles(): string[] {
+    return [...new Set(this.listaActividades.map(actividad => actividad.ubicacion))].sort();
+  }
+
+  get actividadesFiltradas(): Actividad[] {
+    return this.listaActividades.filter(actividad =>
+      (!this.ciudadSeleccionada || actividad.ubicacion === this.ciudadSeleccionada) &&
+      (this.precioMaximo === '' || actividad.precio <= Number(this.precioMaximo))
+    );
+  }
+
+  limpiarFiltros(): void {
+    this.ciudadSeleccionada = '';
+    this.precioMaximo = '';
+  }
 
   ngOnInit(): void {
     this.actividadservice.getActividades().subscribe({
@@ -51,7 +69,7 @@ export class ActividadcomponentComponent implements OnInit, AfterViewInit {
     });
   }
 
-  seleccionarActividad(id: number): void {
-    this.router.navigate(['reserva', 'actividades', id]);
+  seleccionarActividad(id: number) {
+    void this.router.navigate(['/reserva', 'actividades', id]);
   }
 }

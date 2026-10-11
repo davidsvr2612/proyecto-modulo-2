@@ -1,0 +1,67 @@
+<div class="container my-5">
+  <a [routerLink]="'/' + tipo" class="text-decoration-none">← Volver</a>
+
+  @if (error && !item) {
+    <div class="alert alert-warning mt-4">{{ error }}</div>
+  }
+
+  @if (item) {
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-8">
+        <div class="card border-0 shadow rounded-4 overflow-hidden">
+          <img [src]="item.imagen" [alt]="nombre" class="w-100" style="height:300px;object-fit:cover">
+          <div class="card-body p-4 p-md-5">
+            <h1 class="fw-bold">{{ nombre }}</h1>
+            <p class="text-muted">{{ ubicacion }}</p>
+            <p class="fs-4 fw-bold text-success">
+              {{ precio | currency:'COP':'symbol':'1.0-0' }}
+              <span class="fs-6 text-muted fw-normal">{{ esVehiculo ? '/ día' : '/ persona' }}</span>
+            </p>
+
+            <form (ngSubmit)="calcular()">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">{{ esVehiculo ? 'Fecha de recogida' : 'Fecha de la actividad' }}</label>
+                  <input type="date" class="form-control" name="fechaInicio" [(ngModel)]="fechaInicio" [min]="minFecha" (ngModelChange)="cotizacion=false" required>
+                </div>
+                @if (esVehiculo) {
+                  <div class="col-md-6">
+                    <label class="form-label">Fecha de devolución</label>
+                    <input type="date" class="form-control" name="fechaFin" [(ngModel)]="fechaFin" [min]="fechaInicio || minFecha" (ngModelChange)="cotizacion=false" required>
+                  </div>
+                } @else {
+                  <div class="col-md-6">
+                    <label class="form-label">Número de personas</label>
+                    <input type="number" class="form-control" name="cantidad" [(ngModel)]="cantidad" min="1" required>
+                  </div>
+                }
+              </div>
+              <button class="btn btn-primary rounded-pill w-100 mt-4" type="submit">Calcular cotización</button>
+            </form>
+
+            @if (error) {
+              <div class="alert alert-danger mt-3">{{ error }}</div>
+            }
+
+            @if (cotizacion) {
+              <div class="border rounded-3 p-3 mt-4">
+                <h5 class="fw-bold">Resumen de cotización</h5>
+                <div class="d-flex justify-content-between">
+                  <span>{{ esVehiculo ? (dias + ' días × precio diario') : (cantidad + ' personas × precio por persona') }}</span>
+                  <strong>{{ total | currency:'COP':'symbol':'1.0-0' }}</strong>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between fs-5">
+                  <strong>Total</strong>
+                  <strong class="text-success">{{ total | currency:'COP':'symbol':'1.0-0' }}</strong>
+                </div>
+                <p class="text-muted small mt-3">La reserva se registrará a nombre de tu cuenta.</p>
+                <button class="btn btn-success rounded-pill w-100" type="button" (click)="reservar()">Confirmar reserva</button>
+              </div>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+</div>
