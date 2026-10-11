@@ -1,20 +1,182 @@
 [
   {
-    "id": 3,
+    "id": 2001,
     "nombre": "Tour en Bicicleta por el Centro Histórico",
     "descripcion": "Recorre los lugares más icónicos de la ciudad con un guía experto.",
     "precio": 45000,
-    "imagen": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80",
+    "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cf/fd/3d/photo0jpg.jpg?w=1200&h=-1&s=1",
     "ubicacion": "Bogotá D.C.",
     "disponible": true
   },
   {
-    "id": 2,
+    "id": 2002,
     "nombre": "Excursión y Senderismo en la Montaña",
     "descripcion": "Disfruta de la naturaleza y vistas panorámicas increíbles.",
     "precio": 70000,
     "imagen": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=600&q=80",
     "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 2003,
+    "nombre": "Tour de Café en el Eje Cafetero",
+    "descripcion": "Aprende el proceso tradicional de cultivo y cata del mejor café del mundo.",
+    "precio": 90000,
+    "imagen": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Salento, Quindío",
+    "disponible": true
+  },
+  {
+    "id": 2004,
+    "nombre": "Bautizo de Buceo en el Caribe",
+    "descripcion": "Explora los arrecifes de coral y la colorida vida marina con instructores certificados.",
+    "precio": 220000,
+    "imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "San Andrés y Providencia",
+    "disponible": true
+  },
+  {
+    "id": 2005,
+    "nombre": "Caminata Ecológica en el Valle de Cocora",
+    "descripcion": "Maravíllate con las imponentes palmas de cera y el paisaje montañoso andino.",
+    "precio": 60000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYHjrRkLC_01wZMSzc4ZEwILMozlidFV0ZKRybIBt_gypLZ_FP-78xPGO_&s=10",
+    "ubicacion": "Salento, Quindío",
+    "disponible": true
+  },
+  {
+    "id": 2006,
+    "nombre": "Tour Gastronómico Callejero",
+    "descripcion": "Prueba los sabores típicos más deliciosos de la gastronomía local.",
+    "precio": 85000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_GsAl2otKmtDDy4A0GP1IfxMteZ6kXQh4QIqruHvzvDwFYBxMr3EbNfY&s=10",
+    "ubicacion": "Cartagena de Indias",
+    "disponible": true
+  },
+  {
+    "id": 2007,
+    "nombre": "Avistamiento de Ballenas Jorobadas",
+    "descripcion": "Vive una experiencia única observando la llegada de cetáceos al Pacífico colombiano.",
+    "precio": 150000,
+    "imagen": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Bahía Solano, Chocó",
+    "disponible": true
+  },
+  {
+    "id": 2008,
+    "nombre": "Tour Nocturno de Muralsmo y Graffitis",
+    "descripcion": "Conoce el arte urbano, su historia y los mensajes sociales detrás de las calles.",
+    "precio": 40000,
+    "imagen": "https://cdn.getyourguide.com/image/format=auto%2Cfit=crop%2Cgravity=auto%2Cquality=60%2Cwidth=375%2Cheight=375%2Cdpr=2/tour_img/26922bdf3df2d864022f9ebb7d7ada26f56392137bd8d7b7f68513727b21ba28.jpg",
+    "ubicacion": "Comuna 13, Medellín",
+    "disponible": true
+  },
+  {
+    "id": 2009,
+    "nombre": "Paseo en Catamarán al atardecer",
+    "descripcion": "Navega por la bahía disfrutando de música tropical y una vista inolvidable del ocaso.",
+    "precio": 120000,
+    "imagen": "https://denomades.imgix.net/destinos/cartagena/966/catamaran-bonavida-sunset.jpg",
+    "ubicacion": "Cartagena de Indias",
+    "disponible": true
+  },
+  {
+    "id": 2010,
+    "nombre": "Trekking al Parque Nacional Natural Tayrona",
+    "descripcion": "Camina por senderos tropicales hasta llegar a playas vírgenes paradisíacas.",
+    "precio": 95000,
+    "imagen": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Santa Marta",
+    "disponible": true
+  },
+  {
+    "id": 2011,
+    "nombre": "Rafting en el Río Suárez",
+    "descripcion": "Siente la adrenalina pura navegando rápidos de categoría internacional.",
+    "precio": 180000,
+    "imagen": "https://weekend-bucket.s3.amazonaws.com/Canotaje_Rio_Suarez_3_55280be464.jpg",
+    "ubicacion": "San Gil, Santander",
+    "disponible": true
+  },
+  {
+    "id": 2012,
+    "nombre": "Tour Histórico por la Cita Colonial",
+    "descripcion": "Descubre leyendas, arquitectura colonial y plazas llenas de historia.",
+    "precio": 50000,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLbG5jtxx_rnjNrYix5NMK8dKEcv77ocLLRNEr1h99ZON5AX6mON2g9hA&s=10",
+    "ubicacion": "Villa de Leyva",
+    "disponible": true
+  },
+  {
+    "id": 2013,
+    "nombre": "Excursión a la Catedral de Sal de Zipaquirá",
+    "descripcion": "Adéntrate en una maravilla arquitectónica subterránea construida en una mina de sal.",
+    "precio": 80000,
+    "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/f5/84/94.jpg",
+    "ubicacion": "Zipaquirá, Cundinamarca",
+    "disponible": true
+  },
+  {
+    "id": 2014,
+    "nombre": "Clase de Salsa y Rumba Tropical",
+    "descripcion": "Aprende los pasos básicos del género que mueve los pies de toda la ciudad.",
+    "precio": 45000,
+    "imagen": "https://images.unsplash.com/photo-1545128485-c400e7702796?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Cali",
+    "disponible": true
+  },
+  {
+    "id": 2015,
+    "nombre": "Avistamiento de Aves en la Reserva Natural",
+    "descripcion": "Observa una gran variedad de aves exóticas y endémicas en su hábitat natural.",
+    "precio": 110000,
+    "imagen": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=600&q=80",
+    "ubicacion": "Manizales, Caldas",
+    "disponible": true
+  },
+  {
+    "id": 2016,
+    "nombre": "Visita Guiada a Guatapé y la Piedra del Peñol",
+    "descripcion": "Sube los 740 escalones para disfrutar de una vista panorámica impresionante de embalses.",
+    "precio": 90000,
+    "imagen": "https://medellintripcolombia.co/wp-content/uploads/2021/02/guatape.jpg",
+    "ubicacion": "Guatapé, Antioquia",
+    "disponible": true
+  },
+  {
+    "id": 2017,
+    "nombre": "Paseo en Chiva Rumbera Tradicional",
+    "descripcion": "Recorre las calles iluminadas a bordo de un autobús artesanal con música y ambiente festivo.",
+    "precio": 65000,
+    "imagen": "https://mlqfmr3rpryd.i.optimole.com/cb:0cAX.b2f4/w:1024/h:768/q:mauto/g:sm/f:best/https://cartagena-tours.co/wp-content/uploads/2022/11/1-9.png",
+    "ubicacion": "Medellín",
+    "disponible": true
+  },
+  {
+    "id": 2018,
+    "nombre": "Caminata Nocturna de Leyendas y Mitos",
+    "descripcion": "Escucha historias de espantos y misterios coloniales recorriendo callejones oscuros.",
+    "precio": 35000,
+    "imagen": "https://bogota.gov.co/sites/default/files/2025-03/planes-en-bogota-tour-de-los-mitos-y-leyendas-en-centro-historico-2025.png",
+    "ubicacion": "Bogotá D.C.",
+    "disponible": true
+  },
+  {
+    "id": 2019,
+    "nombre": "Excursión al Desierto de la Tatacoa",
+    "descripcion": "Maravíllate con los paisajes ocres y disfruta de una noche de observación astronómica.",
+    "precio": 130000,
+    "imagen": "https://guiaplanet.co/wp-content/uploads/2024/04/excursion-desierto-de-la-tataco-desde-cali-02.jpg",
+    "ubicacion": "Villavieja, Huila",
+    "disponible": true
+  },
+  {
+    "id": 2020,
+    "nombre": "Expedición y Kayak por la Laguna de Guatavita",
+    "descripcion": "Conoce la leyenda de El Dorado navegando en kayak por aguas sagradas ancestrales.",
+    "precio": 100000,
+    "imagen": "https://visitaguatavita.com/wp-content/uploads/2026/08/plan-kayak1-1024x683.jpg.webp",
+    "ubicacion": "Guatavita, Cundinamarca",
     "disponible": true
   }
 ]

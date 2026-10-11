@@ -7,6 +7,7 @@ import { App } from './app';
 import { Footercomponent } from './components/footercomponent/footercomponent';
 import { Navbarcomponent } from './components/navbarcomponent/navbarcomponent';
 import { Vehiculocomponent } from './components/vehiculocomponent/vehiculocomponent';
+import {Actividadcomponent} from './components/actividadcomponent/actividadcomponent'
 import { Actividadcomponent } from './components/actividadcomponent/actividadcomponent';
 import { AlojamientoComponent } from './components/alojamientocomponent/alojamientocomponent';
 import { DetalleAlojamientoComponent } from './components/detallealojamientocomponent/detallealojamientocomponent';
