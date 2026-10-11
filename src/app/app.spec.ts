@@ -1,6 +1,5 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterModule } from '@angular/router';
-// @ts-ignore
 import { App } from './app';
 
 describe('App', () => {
