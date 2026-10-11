@@ -1,5 +1,9 @@
 import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+<<<<<<< HEAD
+=======
+import { CommonModule } from '@angular/common';
+>>>>>>> main
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing-module';
@@ -16,7 +20,11 @@ import { Reservaritemcomponent } from './components/reservaritemcomponent/reserv
 
 @NgModule({
   declarations: [App, Footercomponent, Navbarcomponent, Vehiculocomponent, Actividadcomponent, AlojamientoComponent, DetalleAlojamientoComponent, ReservasComponent, Authcomponent, Reservaritemcomponent],
+<<<<<<< HEAD
   imports: [BrowserModule, HttpClientModule, FormsModule, AppRoutingModule],
+=======
+  imports: [BrowserModule, HttpClientModule, FormsModule, AppRoutingModule,CommonModule],
+>>>>>>> main
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
 })
