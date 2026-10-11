@@ -10,14 +10,22 @@ import { Router } from '@angular/router';
   templateUrl: './actividadcomponent.html',
   styleUrls: ['./actividadcomponent.css'],
 })
+<<<<<<< HEAD
 export class ActividadcomponentComponent implements OnInit, AfterViewInit {
+=======
+export class Actividadcomponent implements OnInit, AfterViewInit {
+>>>>>>> main
   private actividadservice = inject(Actividadservice);
   private maptilerservice = inject(Maptilerservice);
   private cdr = inject(ChangeDetectorRef);
   private router = inject(Router);
 
   listaActividades: Actividad[] = [];
+<<<<<<< HEAD
   private map: any; // Instancia del mapa
+=======
+  private map: any;
+>>>>>>> main
   ciudadSeleccionada = '';
   precioMaximo = '';
 
@@ -55,7 +63,10 @@ export class ActividadcomponentComponent implements OnInit, AfterViewInit {
     this.map = this.maptilerservice.crearMapa('map-actividad', -74.08175, 4.60971, 12);
   }
 
+<<<<<<< HEAD
   // Método para recorrer tu lista y poner los pines del mapa
+=======
+>>>>>>> main
   private actualizarMarcadoresEnMapa(): void {
     if (!this.map) return;
 
