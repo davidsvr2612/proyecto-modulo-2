@@ -1,0 +1,112 @@
+<main class="pagina-inicio">
+
+  <section class="bienvenida">
+    <p class="subtitulo">GoHome</p>
+
+    <h1>Tu próximo viaje comienza aquí</h1>
+
+    <p class="descripcion">
+      Descubre alojamientos, explora vehículos y encuentra
+      actividades para planificar una experiencia a tu medida.
+      Todo lo que necesitas para tu próximo viaje en un solo lugar, GoHome.
+    </p>
+
+    <button
+      type="button"
+      class="boton-principal"
+      (click)="buscarAlojamientos()"
+    >
+      Buscar alojamientos
+    </button>
+  </section>
+
+  <section class="alojamientos-destacados">
+
+    <h2>Alojamientos destacados</h2>
+
+    <p>
+      Encuentra el lugar ideal para descansar y disfrutar
+      de tu próximo destino.
+    </p>
+
+    <button
+      type="button"
+      class="boton-secundario"
+      (click)="buscarAlojamientos()"
+    >
+      Explorar alojamientos disponibles
+    </button>
+
+  </section>
+
+  <section class="servicios">
+
+    <h2>Explora nuestros servicios</h2>
+
+    <div class="contenedor-servicios">
+
+      <article class="servicio">
+        <h3>Alojamientos</h3>
+
+        <p>
+          Explora opciones de hospedaje para tu próxima estancia.
+        </p>
+
+        <button
+          type="button"
+          (click)="buscarAlojamientos()"
+        >
+          Ver alojamientos
+        </button>
+      </article>
+
+      <article class="servicio">
+        <h3>Vehículos</h3>
+
+        <p>
+          Consulta las opciones de transporte disponibles
+          para tus desplazamientos.
+        </p>
+
+        <button
+          type="button"
+          (click)="irAVehiculos()"
+        >
+          Explorar vehículos
+        </button>
+      </article>
+
+      <article class="servicio">
+        <h3>Actividades</h3>
+
+        <p>
+          Descubre experiencias y actividades para tu viaje.
+        </p>
+
+        <button
+          type="button"
+          (click)="irAActividades()"
+        >
+          Ver actividades
+        </button>
+      </article>
+
+      <article class="servicio">
+        <h3>Reservas</h3>
+
+        <p>
+          Accede al módulo de reservas de la plataforma.
+        </p>
+
+        <button
+          type="button"
+          (click)="irAReservas()"
+        >
+          Consultar reservas
+        </button>
+      </article>
+
+    </div>
+  </section>
+
+</main>
