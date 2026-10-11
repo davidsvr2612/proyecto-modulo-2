@@ -6,7 +6,9 @@
     "precio": 45000,
     "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cf/fd/3d/photo0jpg.jpg?w=1200&h=-1&s=1",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.5981,
+    "lng": -74.0758
   },
   {
     "id": 2002,
@@ -15,7 +17,9 @@
     "precio": 70000,
     "imagen": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=600&q=80",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2442,
+    "lng": -75.5812
   },
   {
     "id": 2003,
@@ -24,7 +28,9 @@
     "precio": 90000,
     "imagen": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
     "ubicacion": "Salento, Quindío",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6372,
+    "lng": -75.5716
   },
   {
     "id": 2004,
@@ -33,7 +39,9 @@
     "precio": 220000,
     "imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
     "ubicacion": "San Andrés y Providencia",
-    "disponible": true
+    "disponible": true,
+    "lat": 12.5847,
+    "lng": -81.7006
   },
   {
     "id": 2005,
@@ -42,7 +50,9 @@
     "precio": 60000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYHjrRkLC_01wZMSzc4ZEwILMozlidFV0ZKRybIBt_gypLZ_FP-78xPGO_&s=10",
     "ubicacion": "Salento, Quindío",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6389,
+    "lng": -75.4891
   },
   {
     "id": 2006,
@@ -51,7 +61,9 @@
     "precio": 85000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_GsAl2otKmtDDy4A0GP1IfxMteZ6kXQh4QIqruHvzvDwFYBxMr3EbNfY&s=10",
     "ubicacion": "Cartagena de Indias",
-    "disponible": true
+    "disponible": true,
+    "lat": 10.4234,
+    "lng": -75.5528
   },
   {
     "id": 2007,
@@ -60,7 +72,9 @@
     "precio": 150000,
     "imagen": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=600&q=80",
     "ubicacion": "Bahía Solano, Chocó",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2278,
+    "lng": -77.4031
   },
   {
     "id": 2008,
@@ -69,7 +83,9 @@
     "precio": 40000,
     "imagen": "https://cdn.getyourguide.com/image/format=auto%2Cfit=crop%2Cgravity=auto%2Cquality=60%2Cwidth=375%2Cheight=375%2Cdpr=2/tour_img/26922bdf3df2d864022f9ebb7d7ada26f56392137bd8d7b7f68513727b21ba28.jpg",
     "ubicacion": "Comuna 13, Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2519,
+    "lng": -75.6175
   },
   {
     "id": 2009,
@@ -78,7 +94,9 @@
     "precio": 120000,
     "imagen": "https://denomades.imgix.net/destinos/cartagena/966/catamaran-bonavida-sunset.jpg",
     "ubicacion": "Cartagena de Indias",
-    "disponible": true
+    "disponible": true,
+    "lat": 10.4187,
+    "lng": -75.5506
   },
   {
     "id": 2010,
@@ -87,7 +105,9 @@
     "precio": 95000,
     "imagen": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80",
     "ubicacion": "Santa Marta",
-    "disponible": true
+    "disponible": true,
+    "lat": 11.3214,
+    "lng": -73.9214
   },
   {
     "id": 2011,
@@ -96,7 +116,9 @@
     "precio": 180000,
     "imagen": "https://weekend-bucket.s3.amazonaws.com/Canotaje_Rio_Suarez_3_55280be464.jpg",
     "ubicacion": "San Gil, Santander",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.5564,
+    "lng": -73.1328
   },
   {
     "id": 2012,
@@ -105,7 +127,9 @@
     "precio": 50000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLbG5jtxx_rnjNrYix5NMK8dKEcv77ocLLRNEr1h99ZON5AX6mON2g9hA&s=10",
     "ubicacion": "Villa de Leyva",
-    "disponible": true
+    "disponible": true,
+    "lat": 5.6326,
+    "lng": -73.5323
   },
   {
     "id": 2013,
@@ -114,7 +138,9 @@
     "precio": 80000,
     "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/f5/84/94.jpg",
     "ubicacion": "Zipaquirá, Cundinamarca",
-    "disponible": true
+    "disponible": true,
+    "lat": 5.0189,
+    "lng": -74.0044
   },
   {
     "id": 2014,
@@ -123,7 +149,9 @@
     "precio": 45000,
     "imagen": "https://images.unsplash.com/photo-1545128485-c400e7702796?auto=format&fit=crop&w=600&q=80",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4516,
+    "lng": -76.532
   },
   {
     "id": 2015,
@@ -132,7 +160,9 @@
     "precio": 110000,
     "imagen": "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=600&q=80",
     "ubicacion": "Manizales, Caldas",
-    "disponible": true
+    "disponible": true,
+    "lat": 5.0703,
+    "lng": -75.5138
   },
   {
     "id": 2016,
@@ -141,7 +171,9 @@
     "precio": 90000,
     "imagen": "https://medellintripcolombia.co/wp-content/uploads/2021/02/guatape.jpg",
     "ubicacion": "Guatapé, Antioquia",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2347,
+    "lng": -75.1583
   },
   {
     "id": 2017,
@@ -150,7 +182,9 @@
     "precio": 65000,
     "imagen": "https://mlqfmr3rpryd.i.optimole.com/cb:0cAX.b2f4/w:1024/h:768/q:mauto/g:sm/f:best/https://cartagena-tours.co/wp-content/uploads/2022/11/1-9.png",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2476,
+    "lng": -75.5658
   },
   {
     "id": 2018,
@@ -159,7 +193,9 @@
     "precio": 35000,
     "imagen": "https://bogota.gov.co/sites/default/files/2025-03/planes-en-bogota-tour-de-los-mitos-y-leyendas-en-centro-historico-2025.png",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.5964,
+    "lng": -74.0726
   },
   {
     "id": 2019,
@@ -168,7 +204,9 @@
     "precio": 130000,
     "imagen": "https://guiaplanet.co/wp-content/uploads/2024/04/excursion-desierto-de-la-tataco-desde-cali-02.jpg",
     "ubicacion": "Villavieja, Huila",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.2289,
+    "lng": -75.1661
   },
   {
     "id": 2020,
@@ -177,6 +215,8 @@
     "precio": 100000,
     "imagen": "https://visitaguatavita.com/wp-content/uploads/2026/08/plan-kayak1-1024x683.jpg.webp",
     "ubicacion": "Guatavita, Cundinamarca",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.9781,
+    "lng": -73.8967
   }
 ]

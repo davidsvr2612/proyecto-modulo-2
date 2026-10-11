@@ -5,9 +5,11 @@
     "tipo": "Camioneta",
     "transmision": "Automática",
     "precioPorDia": 120000,
-    "imagen":"https://www.renaultnorteysur.com/wp-content/uploads/2024/09/renault-duster-iconic-4x4-blanco-glaciar.webp",
+    "imagen": "https://www.renaultnorteysur.com/wp-content/uploads/2024/09/renault-duster-iconic-4x4-blanco-glaciar.webp",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6312,
+    "lng": -74.0684
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "precioPorDia": 95000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt1kw9ExFRpUQVPLgBzact7xmwEDBFA5sDkuXLauNOyw&s=10",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2291,
+    "lng": -75.5892
   },
   {
     "id": 3,
@@ -27,7 +31,9 @@
     "precioPorDia": 180000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRR5rXYGQIjypCtHFcHQ7KLJ4tABkXbIrCGWlIAjBoyVCEjCq5UbOJU3Cp&s=10  ",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4472,
+    "lng": -76.5198
   },
   {
     "id": 4,
@@ -37,7 +43,9 @@
     "precioPorDia": 250000,
     "imagen": "https://yokomotor.com.co/toyota/wp-content/uploads/sites/2/2025/05/yokomotor-toyota-hilux-2-4-super-blanco.webp",
     "ubicacion": "Bogotá D.C.",
-    "disponible": false
+    "disponible": false,
+    "lat": 4.6721,
+    "lng": -74.0536
   },
   {
     "id": 5,
@@ -47,7 +55,9 @@
     "precioPorDia": 75000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWX0s5qkFFpgu_fxpeSgCIwqy-onOGKPFwy7Wgl2ORAYXSUy5SUE9WN17J&s=10",
     "ubicacion": "Bucaramanga",
-    "disponible": true
+    "disponible": true,
+    "lat": 7.1219,
+    "lng": -73.1198
   },
   {
     "id": 6,
@@ -57,7 +67,9 @@
     "precioPorDia": 135000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzbNxwd9HsN2XI1D59_cMNupwpR3PrrhAb1Xiyj9OX_Kz88GrIUjN4hbg&s=10",
     "ubicacion": "Cartagena",
-    "disponible": true
+    "disponible": true,
+    "lat": 10.4072,
+    "lng": -75.5392
   },
   {
     "id": 7,
@@ -67,7 +79,9 @@
     "precioPorDia": 140000,
     "imagen": "https://growing-book-496d1c5ffa.media.strapiapp.com/t_cross_trend_200_4afd7c330e.webp",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2084,
+    "lng": -75.5678
   },
   {
     "id": 8,
@@ -77,7 +91,9 @@
     "precioPorDia": 130000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5M-5BS1d3hFxTkkL4iTEggjU0e_leXTkYa0aWZ3vFg&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.7109,
+    "lng": -74.0321
   },
   {
     "id": 9,
@@ -87,7 +103,9 @@
     "precioPorDia": 145000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0UuuIq2cI5nwP4yYJqQN8DKz3SRMLRtoe83bVn69AFp7ada-3ECyKMYI&s=10",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4215,
+    "lng": -76.5367
   },
   {
     "id": 10,
@@ -97,7 +115,9 @@
     "precioPorDia": 80000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfLFKKZS24PXRRxoA0oh3JNg_0Z4W_Csuqzr5P2hd9pqT9LTOWqN7ae2w&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.5982,
+    "lng": -74.0812
   },
   {
     "id": 11,
@@ -107,7 +127,9 @@
     "precioPorDia": 190000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ99oWc5EpSV5UvHUp8mqlDZ3NlkR5Sm4nMvnDARU8Jbw&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6654,
+    "lng": -74.0512
   },
   {
     "id": 12,
@@ -117,7 +139,9 @@
     "precioPorDia": 175000,
     "imagen": "https://autolab.com.co/wp-content/uploads/2022/04/RGTG.png",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2447,
+    "lng": -75.5901
   },
   {
     "id": 13,
@@ -127,7 +151,9 @@
     "precioPorDia": 320000,
     "imagen": "https://media.toyota.com.ve/6873a401-e5cb-4d09-bf9f-bda99e0ed0c0.png",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6983,
+    "lng": -74.0412
   },
   {
     "id": 14,
@@ -137,7 +163,9 @@
     "precioPorDia": 85000,
     "imagen": "https://renaultalmotores.com/wp-content/uploads/2025/07/renault-sandero-life-plus-gris-estrella.webp",
     "ubicacion": "Manizales",
-    "disponible": true
+    "disponible": true,
+    "lat": 5.0689,
+    "lng": -75.5173
   },
   {
     "id": 15,
@@ -147,7 +175,9 @@
     "precioPorDia": 150000,
     "imagen": "https://autolab.com.co/wp-content/uploads/2022/06/ygft.png",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6852,
+    "lng": -74.0411
   },
   {
     "id": 16,
@@ -157,7 +187,9 @@
     "precioPorDia": 125000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnhF-m4uYq-Squ_mmr5UCliLFVJz31XASq0quksDXs0wJSu6sulx60XvU&s=10",
     "ubicacion": "Medellín",
-    "disponible": false
+    "disponible": false,
+    "lat": 6.2154,
+    "lng": -75.5723
   },
   {
     "id": 17,
@@ -167,7 +199,9 @@
     "precioPorDia": 280000,
     "imagen": "https://vehicle-images.carscommerce.inc/stock-images/chrome/f3985f331d5b688879a31945735a34bb.png",
     "ubicacion": "Bucaramanga",
-    "disponible": true
+    "disponible": true,
+    "lat": 7.1182,
+    "lng": -73.1254
   },
   {
     "id": 18,
@@ -177,7 +211,9 @@
     "precioPorDia": 75000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZYA4yKSGd2D0JCVNQ2JJUZIcuPiqAmZy8ZCur9QDMPhQQXtP-uQEtcE&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6192,
+    "lng": -74.0721
   },
   {
     "id": 19,
@@ -187,7 +223,9 @@
     "precioPorDia": 160000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeB9CPkSuCULa_pc5_twufwpZ-4KFX0Dfj_4p0TNOsjw&s=10",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4351,
+    "lng": -76.5204
   },
   {
     "id": 20,
@@ -197,7 +235,9 @@
     "precioPorDia": 300000,
     "imagen": "https://www.ford.com.co/content/dam/na/ford/es_co/nameplate/ranger/2026/models/xl-4x4/settings/fco-ranger-2026-modelwalk-tactica-xl-4X4.png",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2691,
+    "lng": -75.5612
   },
   {
     "id": 21,
@@ -207,7 +247,9 @@
     "precioPorDia": 70000,
     "imagen": "https://renault.juanautos.com.co/wp-content/uploads/sites/2/2026/06/juanautos-renew-chevrolet-joy-hatchback-1.webp",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6291,
+    "lng": -74.0921
   },
   {
     "id": 22,
@@ -217,7 +259,9 @@
     "precioPorDia": 230000,
     "imagen": "https://www.novamotors.com.co/wp-content/uploads/2021/01/Toyota-Rav4-Hybrid-super-blanco-Novamotors-2021.png",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6892,
+    "lng": -74.0531
   },
   {
     "id": 23,
@@ -227,7 +271,9 @@
     "precioPorDia": 100000,
     "imagen": "https://www.elcarrocolombiano.com/wp-content/uploads/2024/02/20240213-MAZDA-2-GRAND-TOURING-LX-CARBON-EDITION-2-LITROS-COLOMBIA-PRECIO-DATOS-02.jpg",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2312,
+    "lng": -75.5812
   },
   {
     "id": 24,
@@ -237,7 +283,9 @@
     "precioPorDia": 65000,
     "imagen": "https://www.renaultnorteysur.com/wp-content/uploads/2025/05/kwid-intens-co.webp",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4512,
+    "lng": -76.5312
   },
   {
     "id": 25,
@@ -247,7 +295,9 @@
     "precioPorDia": 90000,
     "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_6856f48eaa3349599fcd474ac90ecdb7.webp",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6543,
+    "lng": -74.0621
   },
   {
     "id": 26,
@@ -257,7 +307,9 @@
     "precioPorDia": 110000,
     "imagen": "https://www.repartes.com/blog/fallas-comunes-nissan-versa.jpg",
     "ubicacion": "Barranquilla",
-    "disponible": false
+    "disponible": false,
+    "lat": 10.9685,
+    "lng": -74.7813
   },
   {
     "id": 27,
@@ -267,7 +319,9 @@
     "precioPorDia": 165000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRcYOdWAiL4AvZS8sm0OhwWnHeuTk-mpgc_-ldgVa-cw&s=10",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2189,
+    "lng": -75.5621
   },
   {
     "id": 28,
@@ -277,7 +331,9 @@
     "precioPorDia": 120000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5OzAd0SUG39xP4FiTNJRfnQtFxBRCWyc9jqODQUQ-6ZS_ljyJfMG-1I&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6782,
+    "lng": -74.0419
   },
   {
     "id": 29,
@@ -287,7 +343,9 @@
     "precioPorDia": 140000,
     "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_52b7b593293249f0a4d381903e014311.webp",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4612,
+    "lng": -76.5123
   },
   {
     "id": 30,
@@ -297,7 +355,9 @@
     "precioPorDia": 115000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvjJInXpjNNu8rQl8IMaUxSFo8TPM8hVKsJ_X65lKIJXksGUKtV_0ODDZM&s=10",
     "ubicacion": "Bucaramanga",
-    "disponible": true
+    "disponible": true,
+    "lat": 7.1254,
+    "lng": -73.1112
   },
   {
     "id": 31,
@@ -307,7 +367,9 @@
     "precioPorDia": 135000,
     "imagen": "https://satelitalautomotriz.com/dercocenter/wp-content/uploads/2024/03/JOLION-blanco.jpg",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6123,
+    "lng": -74.0912
   },
   {
     "id": 32,
@@ -317,7 +379,9 @@
     "precioPorDia": 130000,
     "imagen": "https://orangeclub.co/wp-content/uploads/2026/06/Peugeot-2008-Allure-Hybrid.jpg",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2234,
+    "lng": -75.5789
   },
   {
     "id": 33,
@@ -327,7 +391,9 @@
     "precioPorDia": 85000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG8oGB3MMS9cdPO0yT9j8YxmTHhqcnijzGZsz-i5ycffSRgA-azV8KGIQh&s=10",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4289,
+    "lng": -76.5412
   },
   {
     "id": 34,
@@ -337,7 +403,9 @@
     "precioPorDia": 145000,
     "imagen": "https://imagenes.portafolio.co/files/og_thumbnail/uploads/2022/03/31/6245c46862cb9.jpeg",
     "ubicacion": "Bogotá D.C.",
-    "disponible": false
+    "disponible": false,
+    "lat": 4.6912,
+    "lng": -74.0324
   },
   {
     "id": 35,
@@ -347,7 +415,9 @@
     "precioPorDia": 160000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbpNwHHW3eTXiAGSeHJgq9QwhE5pDHrOLbkV5pOKf1IpiX2xE3Xo_3M_4&s=10",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2512,
+    "lng": -75.5921
   },
   {
     "id": 36,
@@ -357,7 +427,9 @@
     "precioPorDia": 350000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ539KW9LQthy54anwuiVLm2Xhwp0K3_Byeg-CI547DNw&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6621,
+    "lng": -74.0432
   },
   {
     "id": 37,
@@ -367,7 +439,9 @@
     "precioPorDia": 280000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpNl09QJVkMn_kDidv9sq9p7g0Duhs1gwGsjhVd3HO-g&s=10",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4412,
+    "lng": -76.5254
   },
   {
     "id": 38,
@@ -377,7 +451,9 @@
     "precioPorDia": 380000,
     "imagen": "https://d2ivfcfbdvj3sm.cloudfront.net/oj_ECa0dQDSxkAfY/52236/stills_0640_png/MY2022/52236/52236_st0640_116.webp?c=172&p=164&m=1&o=png&s=khW_QiSyMIpOWVVCMGoDBa",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.7012,
+    "lng": -74.0212
   },
   {
     "id": 39,
@@ -387,7 +463,9 @@
     "precioPorDia": 180000,
     "imagen": "https://cdn.kia.com.co/Niro_1_sin_fondo_1_4e8d04a2cc.webp",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2112,
+    "lng": -75.5831
   },
   {
     "id": 40,
@@ -397,7 +475,9 @@
     "precioPorDia": 140000,
     "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/l/RT_V_4275e1496e4140a9841636d6631be80a.jpg",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6212,
+    "lng": -74.0854
   },
   {
     "id": 41,
@@ -407,7 +487,9 @@
     "precioPorDia": 240000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmPsIlAGzBzbuiorDSzugu62ifwMFZo-mECUrl_zuRz_tq8IoZ3qoRzDk&s=10",
     "ubicacion": "Barranquilla",
-    "disponible": true
+    "disponible": true,
+    "lat": 10.9854,
+    "lng": -74.7912
   },
   {
     "id": 42,
@@ -417,7 +499,9 @@
     "precioPorDia": 135000,
     "imagen": "https://www.volkswagen.co/dam/images/f67e7f40d2e3b765076162a25e83ac0381aaadf5/28f76501daad3da60c5f45f957ceb0ae/c90cc5b6-b00f-4e0d-a10e-b7008f349005/crop:100:100:CENTER:0:0/resize:3840:2160/24_0202_still_lam-nivus-highline-200tsi-my2025-par_pfs_3_4_frente_B4A1-branco-cristal-estu-9000x6000px.jpg",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6432,
+    "lng": -74.0598
   },
   {
     "id": 43,
@@ -427,7 +511,9 @@
     "precioPorDia": 170000,
     "imagen": "https://www.subaru.com.pe/subaru/site/artic/20230504/imag/foto_0000002820230504154715/Blanco_Cristal_Perlado_800x500.png",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2612,
+    "lng": -75.5582
   },
   {
     "id": 44,
@@ -437,7 +523,9 @@
     "precioPorDia": 310000,
     "imagen": "https://cdn.motor1.com/images/mgl/nAbmLj/s1/pajero-sport-2025_legend-6.jpg",
     "ubicacion": "Cali",
-    "disponible": false
+    "disponible": false,
+    "lat": 3.4519,
+    "lng": -76.5381
   },
   {
     "id": 45,
@@ -447,7 +535,9 @@
     "precioPorDia": 450000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcvXq6tTTTC_6N9csyJ86rPpb6G0rCCzxVqIC90BJKgFF5od8NqLtPAyA&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6812,
+    "lng": -74.0412
   },
   {
     "id": 46,
@@ -457,7 +547,9 @@
     "precioPorDia": 390000,
     "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_9c0e9fcdc0f84afca6c72ac0c117d2b4.webp",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2012,
+    "lng": -75.5792
   },
   {
     "id": 47,
@@ -467,7 +559,9 @@
     "precioPorDia": 95000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCTb1K4FCCQrqz4yyHqcAZBSD1UR9CzLmbhvm6esopLHiSbvj0XXICclk&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6082,
+    "lng": -74.0712
   },
   {
     "id": 48,
@@ -477,7 +571,9 @@
     "precioPorDia": 185000,
     "imagen": "https://s3.pagegear.co/15/cta/vehiculos/69/colores/154_750x527.png?5028144.jpg",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4312,
+    "lng": -76.5412
   },
   {
     "id": 49,
@@ -487,7 +583,9 @@
     "precioPorDia": 260000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCKXvRBb-lR4L_YPdHFqaost8HwHq8r_Ssf7jjUdQVZQ&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6981,
+    "lng": -74.0612
   },
   {
     "id": 50,
@@ -497,7 +595,9 @@
     "precioPorDia": 210000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmxLOcuYXunQ9z1rWBFr-ODbgGZzS4ZdV6VE2Np-nn-w&s=10",
     "ubicacion": "Medellín",
-    "disponible": false
+    "disponible": false,
+    "lat": 6.2412,
+    "lng": -75.5812
   },
   {
     "id": 51,
@@ -507,7 +607,9 @@
     "precioPorDia": 250000,
     "imagen": "https://content.homenetiol.com/2000292/2192701/0x0/stock_images/8/cc_2026HYS01_01_640/cc_2026HYS012069335_01_640_R2T.jpg",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6512,
+    "lng": -74.0712
   },
   {
     "id": 52,
@@ -517,7 +619,9 @@
     "precioPorDia": 165000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1tPoTs2a6qdE2rZxDhRzPw083O44rsm79fbyKzZXyM_2Sg71BO0STsRo&s=10",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4112,
+    "lng": -76.5212
   },
   {
     "id": 53,
@@ -527,7 +631,9 @@
     "precioPorDia": 175000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-cjetREJvXF_UWwzlzjDtOGPWpfhRYMgCKyl4y2NjYdxkEP-cs9UV1Szb&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6712,
+    "lng": -74.0812
   },
   {
     "id": 54,
@@ -537,7 +643,9 @@
     "precioPorDia": 90000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqFpaMp9G0NJSVc3laaLQD7049MEEGncC1uSzAA76rA&s=10",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2212,
+    "lng": -75.5912
   },
   {
     "id": 55,
@@ -547,7 +655,9 @@
     "precioPorDia": 130000,
     "imagen": "https://yokomotor.com.co/toyota/wp-content/uploads/sites/2/2024/03/yokomotor-toyota-corolla-seg-hybrid-blanco-perla.webp",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4512,
+    "lng": -76.5112
   },
   {
     "id": 56,
@@ -557,7 +667,9 @@
     "precioPorDia": 220000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx9bbftU4BX2MoiAC0eDdutvqVAXTo3i1n2TciFrXi2jI4OMrBn2N7b3c_&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6612,
+    "lng": -74.0512
   },
   {
     "id": 57,
@@ -567,7 +679,9 @@
     "precioPorDia": 250000,
     "imagen": "https://acnews.blob.core.windows.net/imgnews/medium/NAZ_6e4861a3d3df45b3a57adbb3054f6455.webp",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6312,
+    "lng": -74.0412
   },
   {
     "id": 58,
@@ -577,7 +691,9 @@
     "precioPorDia": 360000,
     "imagen": "https://www.autolartechevrolet.co/content/dam/chevrolet/sa/co/es/master/home/pickups/silverado-z71/colorizer/GAZ.png?imwidth=1920",
     "ubicacion": "Villavicencio",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.142,
+    "lng": -73.6266
   },
   {
     "id": 59,
@@ -587,7 +703,9 @@
     "precioPorDia": 340000,
     "imagen": "https://www.kia.com/us/en/vehicles/carnival-mpv-hybrid/2027/_jcr_content/root/responsivegrid/fiftyfifty.coreimg.jpeg/1784058952630/my27-carnival-hev-5050-trim-highlight.jpeg",
     "ubicacion": "Bogotá D.C.",
-    "disponible": false
+    "disponible": false,
+    "lat": 4.6812,
+    "lng": -74.0712
   },
   {
     "id": 60,
@@ -597,7 +715,9 @@
     "precioPorDia": 480000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyP1wfZREQ0LRBFC4XL8KYdbvsIaKYORFFrdaGa4HZvA&s=10",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2512,
+    "lng": -75.5612
   },
   {
     "id": 61,
@@ -607,7 +727,9 @@
     "precioPorDia": 310000,
     "imagen": "https://dmassets.hyundai.com/is/image/hyundaiautoever/Hyundai_IONIQ5_Range-Calculator_4x3?wid=960&hei=720&fmt=png-alpha&fit=wrap,1",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6412,
+    "lng": -74.0612
   },
   {
     "id": 62,
@@ -617,7 +739,9 @@
     "precioPorDia": 280000,
     "imagen": "https://www.audi.com.co/dam/images/ceb2b643cc46612d02f6f4504ee99259462dcfd0/e21e462bcd88c62e125f7d28e85e79b0/19ea2ed8-dad7-4795-a74e-631d895cf5d9/crop:SMART/resize:3840:2160/Audi-Q3-S-Line_1",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2112,
+    "lng": -75.5712
   },
   {
     "id": 63,
@@ -627,7 +751,9 @@
     "precioPorDia": 300000,
     "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_0c61cf062266448f86257ae5ad719a93.jpg",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6712,
+    "lng": -74.0312
   },
   {
     "id": 64,
@@ -637,7 +763,9 @@
     "precioPorDia": 320000,
     "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/s/RT_V_c6f26d3da4734a89bfff1cee0016d7d1.jpg",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4412,
+    "lng": -76.5212
   },
   {
     "id": 65,
@@ -647,7 +775,9 @@
     "precioPorDia": 310000,
     "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/s/RT_V_a95004d380f44460b6ad3b6e5f0f452d.webp",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6912,
+    "lng": -74.0512
   },
   {
     "id": 66,
@@ -657,7 +787,9 @@
     "precioPorDia": 650000,
     "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/s/RT_V_c457bb8046c1457c9c2bfc4e3dad4371.jpg",
     "ubicacion": "Medellín",
-    "disponible": true
+    "disponible": true,
+    "lat": 6.2012,
+    "lng": -75.5612
   },
   {
     "id": 67,
@@ -667,7 +799,9 @@
     "precioPorDia": 140000,
     "imagen": "https://www.autolartechevrolet.co/content/dam/chevrolet/sa/co/es/master/home/crossovers-and-suvs/tracker-turbo-rs/refresh-tracker-2026/03-colorizer/tracker-rs/tracker-rs-blanco-galaxia.png?imwidth=1920",
     "ubicacion": "Cali",
-    "disponible": true
+    "disponible": true,
+    "lat": 3.4212,
+    "lng": -76.5312
   },
   {
     "id": 68,
@@ -677,7 +811,9 @@
     "precioPorDia": 110000,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAxfX7jD-iCUqDaWvG3ZoN4PLU1tzFZOX9dGSCfOSo2fXeDzoNFTIC4GP4&s=10",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6112,
+    "lng": -74.0712
   },
   {
     "id": 69,
@@ -687,6 +823,8 @@
     "precioPorDia": 170000,
     "imagen": "https://yokomotor.com.co/toyota/wp-content/uploads/sites/2/2024/03/yokomotor-toyota-corolla-cross-gasolina-min.webp",
     "ubicacion": "Bogotá D.C.",
-    "disponible": true
+    "disponible": true,
+    "lat": 4.6612,
+    "lng": -74.0412
   }
 ]
