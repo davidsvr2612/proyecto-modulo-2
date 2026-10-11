@@ -1,0 +1,76 @@
+<div class="container my-5">
+  <a routerLink="/alojamientos" class="text-decoration-none">← Volver a alojamientos</a>
+  @if (error && !alojamiento) {
+    <div class="alert alert-warning mt-4">{{ error }}</div>
+  } @else if (alojamiento) {
+    <div class="mt-4 mb-4">
+      <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+        <div><h1 class="fw-bold">{{ alojamiento.nombre }}</h1><p class="text-muted mb-0"><i class="fa-solid fa-location-dot"></i> {{ alojamiento.ubicacion }} · {{ alojamiento.ciudad }}</p></div>
+        <span class="fs-5">★ {{ alojamiento.calificacion }} <span class="text-muted small">({{ resenas.length }} reseñas)</span></span>
+      </div>
+    </div>
+    <div class="row g-3 mb-5">
+      <div class="col-lg-8"><img [src]="alojamiento.imagenes[0] || alojamiento.imagenPrincipal" [alt]="alojamiento.nombre" class="w-100 rounded-4 main-image"></div>
+      <div class="col-lg-4">
+        @for (imagen of alojamiento.imagenes.slice(1); track imagen) {
+          <img [src]="imagen" [alt]="alojamiento.nombre" class="w-100 rounded-4 side-image mb-3">
+        }
+      </div>
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <h3 class="fw-bold">{{ alojamiento.tipo }} · Hasta {{ alojamiento.capacidad }} huéspedes</h3>
+        <p class="text-muted">{{ alojamiento.habitaciones }} habitaciones · {{ alojamiento.camas }} camas · {{ alojamiento.banos }} baños</p>
+        <hr>
+        <h4 class="fw-bold">Acerca de este alojamiento</h4>
+        <p>{{ alojamiento.descripcion }}</p>
+        <h4 class="fw-bold mt-4">Servicios disponibles</h4>
+        <div class="row g-2">
+          @for (servicio of alojamiento.servicios; track servicio) {
+            <div class="col-sm-6"><span><i class="fa-solid fa-check text-success me-2"></i>{{ servicio }}</span></div>
+          }
+        </div>
+        <h4 class="fw-bold mt-4">Reglas básicas</h4>
+        <ul>@for (regla of alojamiento.reglas; track regla) { <li>{{ regla }}</li> }</ul>
+        <h4 class="fw-bold mt-4">Reseñas</h4>
+        @for (resena of resenas; track resena.id) {
+          <div class="border-bottom py-3">
+            <div class="d-flex justify-content-between"><strong>{{ resena.usuario }}</strong><span>★ {{ resena.calificacion }}</span></div>
+            <p class="text-muted mb-0">{{ resena.comentario }}</p>
+          </div>
+        } @empty {
+          <p class="text-muted">Todavía no hay reseñas para este alojamiento.</p>
+        }
+      </div>
+      <div class="col-lg-5">
+        <div class="card border-0 shadow rounded-4 p-4 booking-card">
+          <h4 class="fw-bold">{{ alojamiento.precioNoche | currency:'COP':'symbol':'1.0-0' }} <span class="text-muted fs-6 fw-normal">/ noche</span></h4>
+          <form (ngSubmit)="calcularCotizacion()">
+            <div class="row g-3 mt-1">
+              <div class="col-6"><label class="form-label">Llegada</label><input type="date" class="form-control" name="fechaLlegada" [(ngModel)]="fechaLlegada" [min]="minFecha" (ngModelChange)="actualizarFechas()" required></div>
+              <div class="col-6"><label class="form-label">Salida</label><input type="date" class="form-control" name="fechaSalida" [(ngModel)]="fechaSalida" [min]="fechaLlegada || minFecha" (ngModelChange)="actualizarFechas()" required></div>
+              <div class="col-12"><label class="form-label">Huéspedes</label><input type="number" class="form-control" name="huespedes" [(ngModel)]="huespedes" (ngModelChange)="actualizarFechas()" min="1" [max]="alojamiento.capacidad" required></div>
+            </div>
+            <button type="submit" class="btn btn-primary rounded-pill w-100 mt-4">Calcular cotización</button>
+          </form>
+          @if (error) { <div class="alert alert-danger mt-3 mb-0">{{ error }}</div> }
+          @if (cotizacion) {
+            <div class="mt-4">
+              <h5 class="fw-bold">Resumen de cotización</h5>
+              <div class="d-flex justify-content-between py-2"><span>{{ cotizacion.noches }} noches × {{ alojamiento.precioNoche | currency:'COP':'symbol':'1.0-0' }}</span><span>{{ cotizacion.subtotal | currency:'COP':'symbol':'1.0-0' }}</span></div>
+              <div class="d-flex justify-content-between py-2"><span>Tarifa de limpieza</span><span>{{ cotizacion.tarifaLimpieza | currency:'COP':'symbol':'1.0-0' }}</span></div>
+              <div class="d-flex justify-content-between py-2"><span>Tarifa de servicio (10 %)</span><span>{{ cotizacion.tarifaServicio | currency:'COP':'symbol':'1.0-0' }}</span></div>
+              <hr>
+              <div class="d-flex justify-content-between fs-5 fw-bold"><span>Total</span><span>{{ cotizacion.total | currency:'COP':'symbol':'1.0-0' }}</span></div>
+              <div class="mt-4">
+                <h5 class="fw-bold">Datos de la cuenta</h5>
+                <p class="text-muted small">La reserva quedará registrada a nombre de la cuenta con la que iniciaste sesión.</p>
+                <button type="button" class="btn btn-success rounded-pill w-100 mt-3" (click)="reservar()">Reservar ahora</button>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  }
+</div>

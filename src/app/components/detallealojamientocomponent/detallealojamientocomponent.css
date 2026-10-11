@@ -1,0 +1,9 @@
+:host { display: block; }
+.main-image { height: 440px; object-fit: cover; }
+.side-image { height: 210px; object-fit: cover; }
+.booking-card { position: sticky; top: 1rem; }
+@media (max-width: 991px) {
+  .main-image { height: 320px; }
+  .side-image { height: 180px; }
+  .booking-card { position: static; }
+}
