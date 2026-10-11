@@ -20,16 +20,8 @@
         "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
       ],
-      "servicios": [
-        "Wi-Fi",
-        "Cocina",
-        "Televisión",
-        "Lavadora"
-      ],
-      "reglas": [
-        "No fumar",
-        "No se permiten fiestas"
-      ]
+      "servicios": ["Wi-Fi", "Cocina", "Televisión", "Lavadora"],
+      "reglas": ["No fumar", "No se permiten fiestas"]
     },
     {
       "id": 2,
@@ -51,17 +43,8 @@
         "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
       ],
-      "servicios": [
-        "Wi-Fi",
-        "Piscina",
-        "Aire acondicionado",
-        "Cocina",
-        "Parqueadero"
-      ],
-      "reglas": [
-        "No fumar",
-        "No mascotas"
-      ]
+      "servicios": ["Wi-Fi", "Piscina", "Aire acondicionado", "Cocina", "Parqueadero"],
+      "reglas": ["No fumar", "No mascotas"]
     },
     {
       "id": 3,
@@ -83,16 +66,8 @@
         "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1200&q=80"
       ],
-      "servicios": [
-        "Wi-Fi",
-        "Cocina",
-        "Parqueadero",
-        "BBQ"
-      ],
-      "reglas": [
-        "No fumar",
-        "Silencio después de las 10 PM"
-      ]
+      "servicios": ["Wi-Fi", "Cocina", "Parqueadero", "BBQ"],
+      "reglas": ["No fumar", "Silencio después de las 10 PM"]
     },
     {
       "id": 4,
@@ -114,16 +89,8 @@
         "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
       ],
-      "servicios": [
-        "Wi-Fi",
-        "Cocina",
-        "Chimenea",
-        "Parqueadero"
-      ],
-      "reglas": [
-        "No fiestas",
-        "Máximo 8 huéspedes"
-      ]
+      "servicios": ["Wi-Fi", "Cocina", "Chimenea", "Parqueadero"],
+      "reglas": ["No fiestas", "Máximo 8 huéspedes"]
     },
     {
       "id": 5,
@@ -140,19 +107,13 @@
       "tarifaLimpieza": 50000,
       "calificacion": 4.5,
       "activo": true,
-      "imagenPrincipal": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.boVrQsigw9uzq6--SBvjngHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
       "imagenes": [
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+        "https://tse1.mm.bing.net/th/id/OIP.boVrQsigw9uzq6--SBvjngHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse4.mm.bing.net/th/id/OIP.PIG06RO7RebgUX1JqFsPGAHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
       ],
-      "servicios": [
-        "Wi-Fi",
-        "Cocina",
-        "Gimnasio",
-        "Parqueadero"
-      ],
-      "reglas": [
-        "No fumar"
-      ]
+      "servicios": ["Wi-Fi", "Cocina", "Gimnasio", "Parqueadero"],
+      "reglas": ["No fumar"]
     },
     {
       "id": 6,
@@ -171,16 +132,563 @@
       "activo": false,
       "imagenPrincipal": "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
       "imagenes": [
-        "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80"
+        "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
+        "https://tse1.mm.bing.net/th/id/OIP.Z6iFuPe6yIf4_D83CtQ8MQHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
       ],
-      "servicios": [
-        "Piscina",
-        "Parqueadero",
-        "BBQ"
+      "servicios": ["Piscina", "Parqueadero", "BBQ"],
+      "reglas": ["No fiestas"]
+    },
+    {
+      "id": 7,
+      "nombre": "Apartaestudio en Laureles",
+      "descripcion": "Apartaestudio acogedor en una de las zonas más tranquilas de Medellín.",
+      "ciudad": "Medellín",
+      "ubicacion": "Laureles, Medellín",
+      "tipo": "Apartamento",
+      "capacidad": 2,
+      "habitaciones": 1,
+      "camas": 1,
+      "banos": 1,
+      "precioNoche": 160000,
+      "tarifaLimpieza": 40000,
+      "calificacion": 4.7,
+      "activo": true,
+      "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.aD_6TQDCGzpl5cy3wSGKPQHaFc?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse1.mm.bing.net/th/id/OIP.aD_6TQDCGzpl5cy3wSGKPQHaFc?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://http2.mlstatic.com/D_NQ_NP_632355-MCO85988438553_062025-O.webp"
       ],
-      "reglas": [
-        "No fiestas"
-      ]
+      "servicios": ["Wi-Fi", "Cocina", "Televisión"],
+      "reglas": ["No fumar", "No mascotas"]
+    },
+    {
+      "id": 8,
+      "nombre": "Penthouse en el centro de Bogotá",
+      "descripcion": "Penthouse de lujo con vista panorámica a la ciudad.",
+      "ciudad": "Bogotá",
+      "ubicacion": "Centro Internacional, Bogotá",
+      "tipo": "Apartamento",
+      "capacidad": 4,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 2,
+      "precioNoche": 480000,
+      "tarifaLimpieza": 80000,
+      "calificacion": 4.9,
+      "activo": true,
+      "imagenPrincipal": "https://http2.mlstatic.com/D_NQ_NP_961307-MCO111656438161_052026-O.webp",
+      "imagenes": [
+        "https://http2.mlstatic.com/D_NQ_NP_632355-MCO85988438553_062025-O.webp",
+        "https://tse3.mm.bing.net/th/id/OIP.MTHnTBoVBFrnA4pXT31K8gHaE7?r=0&w=892&h=594&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Gimnasio", "Piscina", "Parqueadero", "Aire acondicionado"],
+      "reglas": ["No fiestas", "No fumar"]
+    },
+    {
+      "id": 9,
+      "nombre": "Cabaña en el Eje Cafetero",
+      "descripcion": "Cabaña tradicional en medio del paisaje cafetero.",
+      "ciudad": "Salento",
+      "ubicacion": "Salento, Quindío",
+      "tipo": "Cabaña",
+      "capacidad": 4,
+      "habitaciones": 2,
+      "camas": 3,
+      "banos": 1,
+      "precioNoche": 280000,
+      "tarifaLimpieza": 50000,
+      "calificacion": 4.8,
+      "activo": true,
+      "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.gItPK_Y8Yko6AKFBhy2ZKgHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse1.mm.bing.net/th/id/OIP.gItPK_Y8Yko6AKFBhy2ZKgHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse4.mm.bing.net/th/id/OIP.iNoPcyFmHsTfpVjRk89-9gAAAA?r=0&w=474&h=355&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Chimenea", "Parqueadero"],
+      "reglas": ["No fumar", "Silencio después de las 10 PM"]
+    },
+    {
+      "id": 10,
+      "nombre": "Apartamento en Bocagrande",
+      "descripcion": "Apartamento moderno a pocos pasos de la playa.",
+      "ciudad": "Cartagena",
+      "ubicacion": "Bocagrande, Cartagena",
+      "tipo": "Apartamento",
+      "capacidad": 4,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 2,
+      "precioNoche": 380000,
+      "tarifaLimpieza": 65000,
+      "calificacion": 4.6,
+      "activo": true,
+      "imagenPrincipal": "https://img.resemmedia.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84MThlZWVhNi03OGQ0LTQ5NjEtYTFlZS1mOTBmYTVlNjJhNDUvNzRlMTczMmFhY2YyMDJkMzMzNThjYjc5YWY0M2NjMzg0MDU2NmNkMjliYWNjOGUxYzM4NGQzYjY4NTdhNmFjYy5qcGVnIiwiYnJhbmQiOiJyZXNlbSIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbH19",
+      "imagenes": [
+        "https://img.resemmedia.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84MThlZWVhNi03OGQ0LTQ5NjEtYTFlZS1mOTBmYTVlNjJhNDUvNzRlMTczMmFhY2YyMDJkMzMzNThjYjc5YWY0M2NjMzg0MDU2NmNkMjliYWNjOGUxYzM4NGQzYjY4NTdhNmFjYy5qcGVnIiwiYnJhbmQiOiJyZXNlbSIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbH19",
+        "https://a0.muscache.com/im/pictures/86a89738-8ad5-4230-a31d-5f5e408c54c2.jpg?im_w=720&width=720&quality=70&auto=webp"
+      ],
+      "servicios": ["Wi-Fi", "Piscina", "Aire acondicionado", "Cocina"],
+      "reglas": ["No fumar", "No fiestas"]
+    },
+    {
+      "id": 11,
+      "nombre": "Villa en Santa Marta",
+      "descripcion": "Villa privada con piscina cerca al mar Caribe.",
+      "ciudad": "Santa Marta",
+      "ubicacion": "Bello Horizonte, Santa Marta",
+      "tipo": "Villa",
+      "capacidad": 8,
+      "habitaciones": 4,
+      "camas": 5,
+      "banos": 3,
+      "precioNoche": 750000,
+      "tarifaLimpieza": 150000,
+      "calificacion": 4.9,
+      "activo": true,
+      "imagenPrincipal": "https://q-xx.bstatic.com/xdata/images/hotel/1680x840/510688147.webp?k=1f1d445b8f7ec276ba5c938f0bd88420f71f5da05273f4ba792cef79408a0d0f&o=",
+      "imagenes": [
+        "https://q-xx.bstatic.com/xdata/images/hotel/1680x840/510688147.webp?k=1f1d445b8f7ec276ba5c938f0bd88420f71f5da05273f4ba792cef79408a0d0f&o=",
+        "https://i.viviun.net/i/1/l/280190/0GKJR6/1/DEE3A4/home-for-sale-in-coronado-golf-club-coronado-panama.webp"
+      ],
+      "servicios": ["Wi-Fi", "Piscina", "BBQ", "Aire acondicionado", "Parqueadero"],
+      "reglas": ["No fiestas", "Máximo 8 huéspedes"]
+    },
+    {
+      "id": 12,
+      "nombre": "Hostal en San Gil",
+      "descripcion": "Hostal ideal para viajeros aventureros y amantes de los deportes extremos.",
+      "ciudad": "San Gil",
+      "ubicacion": "Centro, San Gil",
+      "tipo": "Hostal",
+      "capacidad": 1,
+      "habitaciones": 1,
+      "camas": 1,
+      "banos": 1,
+      "precioNoche": 65000,
+      "tarifaLimpieza": 15000,
+      "calificacion": 4.5,
+      "activo": true,
+      "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.rT9K9_jtotPSagZB3h3VHAHaEO?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse1.mm.bing.net/th/id/OIP.rT9K9_jtotPSagZB3h3VHAHaEO?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fb/25/1e/hotel-campestre-el-danubio.jpg?w=1000&h=600&s=1"
+      ],
+      "servicios": ["Wi-Fi", "Cocina compartida", "Televisión"],
+      "reglas": ["No fumar", "Respetar zonas comunes"]
+    },
+    {
+      "id": 13,
+      "nombre": "Apartamento en el Rodadero",
+      "descripcion": "Apartamento con vista al mar en el sector turístico del Rodadero.",
+      "ciudad": "Santa Marta",
+      "ubicacion": "El Rodadero, Santa Marta",
+      "tipo": "Apartamento",
+      "capacidad": 5,
+      "habitaciones": 2,
+      "camas": 3,
+      "banos": 2,
+      "precioNoche": 360000,
+      "tarifaLimpieza": 60000,
+      "calificacion": 4.7,
+      "activo": true,
+      "imagenPrincipal": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/319777729.jpg?k=172556a32bf5354bc20a115d6949218e341a9e9cd41c33bb2a1c65a6bbd8faef&o=&hp=1",
+      "imagenes": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/319777729.jpg?k=172556a32bf5354bc20a115d6949218e341a9e9cd41c33bb2a1c65a6bbd8faef&o=&hp=1",
+        "https://cdn.arriendo.com/co/wp-content/uploads/2026/02/Apartamento-en-arriendo-en-Rodadero-Santa-marta-1.webp"
+      ],
+      "servicios": ["Wi-Fi", "Piscina", "Aire acondicionado", "Cocina", "Parqueadero"],
+      "reglas": ["No fumar", "No mascotas"]
+    },
+    {
+      "id": 14,
+      "nombre": "Casa en Barichara",
+      "descripcion": "Casa de tapia pisada en el pueblo más bonito de Colombia.",
+      "ciudad": "Barichara",
+      "ubicacion": "Centro histórico, Barichara",
+      "tipo": "Casa",
+      "capacidad": 6,
+      "habitaciones": 3,
+      "camas": 4,
+      "banos": 2,
+      "precioNoche": 400000,
+      "tarifaLimpieza": 70000,
+      "calificacion": 4.8,
+      "activo": true,
+      "imagenPrincipal": "https://tse4.mm.bing.net/th/id/OIP.lcKzY2ZxiOvd_X1S475JfwHaHa?r=0&w=1072&h=1072&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse4.mm.bing.net/th/id/OIP.lcKzY2ZxiOvd_X1S475JfwHaHa?r=0&w=1072&h=1072&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse2.mm.bing.net/th/id/OIP.dU-B-kGub2fwGQFgNl5WAQHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Chimenea", "Parqueadero"],
+      "reglas": ["No fiestas", "No fumar"]
+    },
+    {
+      "id": 15,
+      "nombre": "Glamping en el Cocuy",
+      "descripcion": "Experiencia de glamping con vista a la Sierra Nevada del Cocuy.",
+      "ciudad": "El Cocuy",
+      "ubicacion": "El Cocuy, Boyacá",
+      "tipo": "Glamping",
+      "capacidad": 2,
+      "habitaciones": 1,
+      "camas": 1,
+      "banos": 1,
+      "precioNoche": 320000,
+      "tarifaLimpieza": 50000,
+      "calificacion": 4.9,
+      "activo": true,
+      "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.yKxlcvOCjkKtYT99bRy-hgHaFj?r=0&w=1023&h=768&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse1.mm.bing.net/th/id/OIP.yKxlcvOCjkKtYT99bRy-hgHaFj?r=0&w=1023&h=768&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://media.rumbonaturaleza.com/wp-content/uploads/2025/glamping/veracruz/coccoloba/coccoloba1.webp"
+      ],
+      "servicios": ["Wi-Fi", "Desayuno incluido", "Chimenea"],
+      "reglas": ["No fumar", "No mascotas"]
+    },
+    {
+      "id": 16,
+      "nombre": "Apartamento en Usaquén",
+      "descripcion": "Apartamento elegante cerca a la zona gastronómica de Usaquén.",
+      "ciudad": "Bogotá",
+      "ubicacion": "Usaquén, Bogotá",
+      "tipo": "Apartamento",
+      "capacidad": 3,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 1,
+      "precioNoche": 250000,
+      "tarifaLimpieza": 50000,
+      "calificacion": 4.6,
+      "activo": true,
+      "imagenPrincipal": "https://cdn.arriendo.com/co/wp-content/uploads/2026/02/Apartamento-en-Arriendo-en-Usaquen-Bogota-1.webp",
+      "imagenes": [
+        "https://cdn.arriendo.com/co/wp-content/uploads/2026/02/Apartamento-en-Arriendo-en-Usaquen-Bogota-1.webp",
+        "https://tse3.mm.bing.net/th/id/OIP.cwjAKSTsmhhZ9qfVUz0mQwHaFj?r=0&w=1536&h=1152&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Televisión", "Parqueadero"],
+      "reglas": ["No fumar", "No fiestas"]
+    },
+    {
+      "id": 17,
+      "nombre": "Finca en Villa de Leyva",
+      "descripcion": "Finca con amplios jardines y zona de BBQ.",
+      "ciudad": "Villa de Leyva",
+      "ubicacion": "Vereda Ritoque, Villa de Leyva",
+      "tipo": "Finca",
+      "capacidad": 12,
+      "habitaciones": 5,
+      "camas": 8,
+      "banos": 4,
+      "precioNoche": 800000,
+      "tarifaLimpieza": 160000,
+      "calificacion": 4.7,
+      "activo": true,
+      "imagenPrincipal": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/b9/fc/a9/finca-garden.jpg?w=900&h=500&s=1",
+      "imagenes": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/b9/fc/a9/finca-garden.jpg?w=900&h=500&s=1",
+        "https://tse1.explicit.bing.net/th/id/OIP.2hMMvjHeafXb3S39XaRtFwHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Piscina", "BBQ", "Parqueadero", "Chimenea"],
+      "reglas": ["No fiestas", "Máximo 12 huéspedes"]
+    },
+    {
+      "id": 18,
+      "nombre": "Apartamento en Manizales",
+      "descripcion": "Apartamento con vista a las montañas cafeteras.",
+      "ciudad": "Manizales",
+      "ubicacion": "Cable Plaza, Manizales",
+      "tipo": "Apartamento",
+      "capacidad": 4,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 2,
+      "precioNoche": 210000,
+      "tarifaLimpieza": 45000,
+      "calificacion": 4.5,
+      "activo": true,
+      "imagenPrincipal": "https://tse2.mm.bing.net/th/id/OIP.Rov9tYRZa69G3HTo10lLRwHaJ4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse2.mm.bing.net/th/id/OIP.Rov9tYRZa69G3HTo10lLRwHaJ4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-53756203/original/7c9bbe5f-1fa9-45cf-b854-ecd57b91d74f.jpeg?im_w=720&width=720&quality=70&auto=webp"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Televisión", "Parqueadero"],
+      "reglas": ["No fumar"]
+    },
+    {
+      "id": 19,
+      "nombre": "Cabaña en el Lago Calima",
+      "descripcion": "Cabaña frente al lago ideal para deportes acuáticos.",
+      "ciudad": "Darién",
+      "ubicacion": "Lago Calima, Valle del Cauca",
+      "tipo": "Cabaña",
+      "capacidad": 6,
+      "habitaciones": 3,
+      "camas": 4,
+      "banos": 2,
+      "precioNoche": 300000,
+      "tarifaLimpieza": 55000,
+      "calificacion": 4.6,
+      "activo": true,
+      "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.uvYZPOJbpE2Qhxu_n6bnTgHaFi?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse1.mm.bing.net/th/id/OIP.uvYZPOJbpE2Qhxu_n6bnTgHaFi?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse1.explicit.bing.net/th/id/OIP.jk2DJX9gLF6WP9Pip61v9wHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "BBQ", "Parqueadero"],
+      "reglas": ["No fumar", "No fiestas"]
+    },
+    {
+      "id": 20,
+      "nombre": "Apartamento en Cartagena amurallada",
+      "descripcion": "Apartamento dentro de la ciudad amurallada, patrimonio histórico.",
+      "ciudad": "Cartagena",
+      "ubicacion": "Centro histórico, Cartagena",
+      "tipo": "Apartamento",
+      "capacidad": 3,
+      "habitaciones": 1,
+      "camas": 2,
+      "banos": 1,
+      "precioNoche": 350000,
+      "tarifaLimpieza": 60000,
+      "calificacion": 4.8,
+      "activo": true,
+      "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.-hBq9T4ksVu3BwJFqeTUogHaEU?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse1.mm.bing.net/th/id/OIP.-hBq9T4ksVu3BwJFqeTUogHaEU?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/773450903.jpg?k=c84005e43956fd831372c656eee1fbe90226e09453c435f3de7dc982e80e292e&o="
+      ],
+      "servicios": ["Wi-Fi", "Aire acondicionado", "Cocina", "Televisión"],
+      "reglas": ["No fumar", "No mascotas"]
+    },
+    {
+      "id": 21,
+      "nombre": "Hotel boutique en Bogotá",
+      "descripcion": "Hotel boutique con diseño exclusivo en la Zona Rosa.",
+      "ciudad": "Bogotá",
+      "ubicacion": "Zona Rosa, Bogotá",
+      "tipo": "Hotel",
+      "capacidad": 2,
+      "habitaciones": 1,
+      "camas": 1,
+      "banos": 1,
+      "precioNoche": 450000,
+      "tarifaLimpieza": 0,
+      "calificacion": 4.9,
+      "activo": true,
+      "imagenPrincipal": "https://tse4.mm.bing.net/th/id/OIP.K0HEBw5oJUKt_pCCvkXaRwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse4.mm.bing.net/th/id/OIP.K0HEBw5oJUKt_pCCvkXaRwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse1.mm.bing.net/th/id/OIP.6A9yZQo9pQvYtlxl3TN_PAHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Desayuno incluido", "Gimnasio", "Aire acondicionado"],
+      "reglas": ["No fumar", "No fiestas"]
+    },
+    {
+      "id": 22,
+      "nombre": "Casa en Guatapé con muelle",
+      "descripcion": "Casa con muelle privado sobre el embalse de Guatapé.",
+      "ciudad": "Guatapé",
+      "ubicacion": "Guatapé, Antioquia",
+      "tipo": "Casa",
+      "capacidad": 10,
+      "habitaciones": 4,
+      "camas": 6,
+      "banos": 3,
+      "precioNoche": 900000,
+      "tarifaLimpieza": 180000,
+      "calificacion": 5.0,
+      "activo": true,
+      "imagenPrincipal": "https://tse3.mm.bing.net/th/id/OIP.YDgoWjwZ2aHkD-qYiDkTOAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse3.mm.bing.net/th/id/OIP.YDgoWjwZ2aHkD-qYiDkTOAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse4.mm.bing.net/th/id/OIP.4G7FUODBo0ptfUIsCxrdhwHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Muelle privado", "BBQ", "Parqueadero", "Cocina"],
+      "reglas": ["No fiestas", "Máximo 10 huéspedes"]
+    },
+    {
+      "id": 23,
+      "nombre": "Apartamento en Pereira",
+      "descripcion": "Apartamento cómodo cerca al centro de Pereira.",
+      "ciudad": "Pereira",
+      "ubicacion": "Centro, Pereira",
+      "tipo": "Apartamento",
+      "capacidad": 3,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 1,
+      "precioNoche": 150000,
+      "tarifaLimpieza": 35000,
+      "calificacion": 4.4,
+      "activo": true,
+      "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.48-HLjIt3dBtmJgopyyeWAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse1.mm.bing.net/th/id/OIP.48-HLjIt3dBtmJgopyyeWAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ae/bd/5e/salon-comedor.jpg?w=700&h=-1&s=1"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Televisión"],
+      "reglas": ["No fumar"]
+    },
+    {
+      "id": 24,
+      "nombre": "Ecohotel en Minca",
+      "descripcion": "Ecohotel en la Sierra Nevada de Santa Marta, rodeado de naturaleza.",
+      "ciudad": "Minca",
+      "ubicacion": "Minca, Magdalena",
+      "tipo": "Ecohotel",
+      "capacidad": 2,
+      "habitaciones": 1,
+      "camas": 1,
+      "banos": 1,
+      "precioNoche": 280000,
+      "tarifaLimpieza": 40000,
+      "calificacion": 4.7,
+      "activo": true,
+      "imagenPrincipal": "https://tse3.mm.bing.net/th/id/OIP.HcUjAaWwe1UcMGEyqIvmYwHaEO?r=0&w=1400&h=800&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse3.mm.bing.net/th/id/OIP.HcUjAaWwe1UcMGEyqIvmYwHaEO?r=0&w=1400&h=800&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse1.mm.bing.net/th/id/OIP.-028TAsevWWFpM09PKGgyAHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Desayuno incluido", "Senderismo guiado"],
+      "reglas": ["No fumar", "No mascotas", "Respetar la naturaleza"]
+    },
+    {
+      "id": 25,
+      "nombre": "Apartamento en Bucaramanga",
+      "descripcion": "Apartamento moderno en zona residencial de Bucaramanga.",
+      "ciudad": "Bucaramanga",
+      "ubicacion": "Cabecera del Llano, Bucaramanga",
+      "tipo": "Apartamento",
+      "capacidad": 4,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 2,
+      "precioNoche": 190000,
+      "tarifaLimpieza": 40000,
+      "calificacion": 4.5,
+      "activo": true,
+      "imagenPrincipal": "https://tse3.mm.bing.net/th/id/OIP.RFfWO06gR0lsH4MgHbXVtQHaFh?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse3.mm.bing.net/th/id/OIP.RFfWO06gR0lsH4MgHbXVtQHaFh?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse4.mm.bing.net/th/id/OIP.r-WS8syVlXKcKto2KVVN4wHaFc?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Parqueadero", "Televisión"],
+      "reglas": ["No fumar", "No fiestas"]
+    },
+    {
+      "id": 26,
+      "nombre": "Cabaña en Nuquí",
+      "descripcion": "Cabaña ecológica frente al Pacífico colombiano.",
+      "ciudad": "Nuquí",
+      "ubicacion": "Nuquí, Chocó",
+      "tipo": "Cabaña",
+      "capacidad": 4,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 1,
+      "precioNoche": 340000,
+      "tarifaLimpieza": 50000,
+      "calificacion": 4.8,
+      "activo": true,
+      "imagenPrincipal": "https://tse3.mm.bing.net/th/id/OIP.PY1LzSFda_r6Bgcw4POcPwHaDt?r=0&w=600&h=300&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse3.mm.bing.net/th/id/OIP.PY1LzSFda_r6Bgcw4POcPwHaDt?r=0&w=600&h=300&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse4.mm.bing.net/th/id/OIP.1a_kvmztlSzJnPUxEo9GmQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Comidas incluidas", "Tours ecológicos"],
+      "reglas": ["No fumar", "Respetar la comunidad local"]
+    },
+    {
+      "id": 27,
+      "nombre": "Apartamento en Cali",
+      "descripcion": "Apartamento cerca a la zona rosa y centros comerciales de Cali.",
+      "ciudad": "Cali",
+      "ubicacion": "Granada, Cali",
+      "tipo": "Apartamento",
+      "capacidad": 3,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 1,
+      "precioNoche": 175000,
+      "tarifaLimpieza": 40000,
+      "calificacion": 4.6,
+      "activo": true,
+      "imagenPrincipal": "https://tse3.mm.bing.net/th/id/OIP.fGUCRXpfeZmoT_tsSoSLGQHaF2?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "hhttps://tse3.mm.bing.net/th/id/OIP.fGUCRXpfeZmoT_tsSoSLGQHaF2?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse2.mm.bing.net/th/id/OIP.eotrwdbLHqT26PZkgdIP6gHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Televisión", "Aire acondicionado"],
+      "reglas": ["No fumar", "No fiestas"]
+    },
+    {
+      "id": 28,
+      "nombre": "Casa en el Desierto de la Tatacoa",
+      "descripcion": "Casa rural con vista al desierto y cielos estrellados.",
+      "ciudad": "Villavieja",
+      "ubicacion": "Desierto de la Tatacoa, Huila",
+      "tipo": "Casa",
+      "capacidad": 5,
+      "habitaciones": 2,
+      "camas": 3,
+      "banos": 2,
+      "precioNoche": 260000,
+      "tarifaLimpieza": 50000,
+      "calificacion": 4.7,
+      "activo": true,
+      "imagenPrincipal": "https://tse2.mm.bing.net/th/id/OIP.X_8JsIqIFwk-pH-XGnGfHgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse2.mm.bing.net/th/id/OIP.X_8JsIqIFwk-pH-XGnGfHgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://tse1.explicit.bing.net/th/id/OIP.dl7FudO1zonkBsHyFL53RQHaFS?r=0&w=700&h=500&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Parqueadero", "Tours astronómicos"],
+      "reglas": ["No fumar", "No fiestas", "Cuidar el entorno natural"]
+    },
+    {
+      "id": 29,
+      "nombre": "Apartamento en el centro de Tunja",
+      "descripcion": "Apartamento cómodo en el centro histórico de Tunja.",
+      "ciudad": "Tunja",
+      "ubicacion": "Centro histórico, Tunja",
+      "tipo": "Apartamento",
+      "capacidad": 3,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 1,
+      "precioNoche": 140000,
+      "tarifaLimpieza": 30000,
+      "calificacion": 4.4,
+      "activo": true,
+      "imagenPrincipal": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/f5/a0/15/casa-real.jpg?w=1200&h=-1&s=1",
+      "imagenes": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/f5/a0/15/casa-real.jpg?w=1200&h=-1&s=1",
+        "https://tse3.mm.bing.net/th/id/OIP.a3rgaEMRibNFE1ZXsjlBBgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
+      "servicios": ["Wi-Fi", "Cocina", "Televisión"],
+      "reglas": ["No fumar"]
+    },
+    {
+      "id": 30,
+      "nombre": "Cabaña en el Amazonas",
+      "descripcion": "Cabaña en la selva amazónica con experiencia de ecoturismo.",
+      "ciudad": "Leticia",
+      "ubicacion": "Leticia, Amazonas",
+      "tipo": "Cabaña",
+      "capacidad": 4,
+      "habitaciones": 2,
+      "camas": 2,
+      "banos": 1,
+      "precioNoche": 310000,
+      "tarifaLimpieza": 55000,
+      "calificacion": 4.8,
+      "activo": true,
+      "imagenPrincipal": "https://tse3.mm.bing.net/th/id/OIP.pbV88W_cLcdUtb4I330xcgHaE8?r=0&w=900&h=600&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imagenes": [
+        "https://tse3.mm.bing.net/th/id/OIP.pbV88W_cLcdUtb4I330xcgHaE8?r=0&w=900&h=600&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "https://images.prismic.io/incriveisexperiencias/da879a1d-5198-4808-b098-90d28c3c090a_bangalo.jpg?auto=format%2Ccompress&max-w=600&max-h=420&fit=crop&crop=faces&ar=1.43&trim=auto&ixlib=react-9.0.2"
+      ],
+      "servicios": ["Wi-Fi", "Comidas incluidas", "Tours guiados", "Cocina"],
+      "reglas": ["No fumar", "Respetar la fauna y flora", "No mascotas"]
     }
   ],
   "resenas": [
@@ -218,6 +726,216 @@
       "usuario": "Natalia Pérez",
       "calificacion": 4,
       "comentario": "La casa es amplia y está muy bien ubicada."
+    },
+    {
+      "id": 6,
+      "alojamientoId": 5,
+      "usuario": "Daniel Castro",
+      "calificacion": 5,
+      "comentario": "Perfecto para viajes de trabajo, muy bien ubicado."
+    },
+    {
+      "id": 7,
+      "alojamientoId": 6,
+      "usuario": "Sofía Ramírez",
+      "calificacion": 4,
+      "comentario": "La casa es hermosa aunque estaba fuera de servicio cuando la visité."
+    },
+    {
+      "id": 8,
+      "alojamientoId": 7,
+      "usuario": "Juan Esteban Rojas",
+      "calificacion": 5,
+      "comentario": "Muy tranquilo y acogedor, ideal para descansar."
+    },
+    {
+      "id": 9,
+      "alojamientoId": 8,
+      "usuario": "Valentina Moreno",
+      "calificacion": 5,
+      "comentario": "El penthouse es espectacular, la vista es increíble."
+    },
+    {
+      "id": 10,
+      "alojamientoId": 9,
+      "usuario": "Felipe Cárdenas",
+      "calificacion": 5,
+      "comentario": "La cabaña es un paraíso, el paisaje cafetero es único."
+    },
+    {
+      "id": 11,
+      "alojamientoId": 10,
+      "usuario": "Camila Vargas",
+      "calificacion": 4,
+      "comentario": "Muy cerca de la playa, cómodo y limpio."
+    },
+    {
+      "id": 12,
+      "alojamientoId": 11,
+      "usuario": "Andrés Mendoza",
+      "calificacion": 5,
+      "comentario": "La villa es enorme y la piscina espectacular."
+    },
+    {
+      "id": 13,
+      "alojamientoId": 12,
+      "usuario": "Luisa Fernanda Gil",
+      "calificacion": 4,
+      "comentario": "Buena opción económica para mochileros."
+    },
+    {
+      "id": 14,
+      "alojamientoId": 13,
+      "usuario": "Ricardo Peña",
+      "calificacion": 5,
+      "comentario": "La vista al mar desde el balcón es impagable."
+    },
+    {
+      "id": 15,
+      "alojamientoId": 14,
+      "usuario": "Paula Jiménez",
+      "calificacion": 5,
+      "comentario": "Barichara es mágico y la casa tiene mucho encanto."
+    },
+    {
+      "id": 16,
+      "alojamientoId": 15,
+      "usuario": "Sebastián Ortiz",
+      "calificacion": 5,
+      "comentario": "El glamping es una experiencia única, despertar con esa vista no tiene precio."
+    },
+    {
+      "id": 17,
+      "alojamientoId": 16,
+      "usuario": "Mariana Duarte",
+      "calificacion": 4,
+      "comentario": "Muy buen apartamento, cerca a restaurantes y cafés."
+    },
+    {
+      "id": 18,
+      "alojamientoId": 17,
+      "usuario": "Jorge Iván Herrera",
+      "calificacion": 5,
+      "comentario": "La finca es perfecta para grupos grandes, muy recomendada."
+    },
+    {
+      "id": 19,
+      "alojamientoId": 18,
+      "usuario": "Diana Carolina Mora",
+      "calificacion": 4,
+      "comentario": "Vista hermosa a las montañas, muy tranquilo."
+    },
+    {
+      "id": 20,
+      "alojamientoId": 19,
+      "usuario": "Óscar Ramírez",
+      "calificacion": 5,
+      "comentario": "El lago Calima es ideal para descansar y hacer deporte."
+    },
+    {
+      "id": 21,
+      "alojamientoId": 20,
+      "usuario": "Alejandra Suárez",
+      "calificacion": 5,
+      "comentario": "Dormir dentro de la ciudad amurallada es una experiencia increíble."
+    },
+    {
+      "id": 22,
+      "alojamientoId": 21,
+      "usuario": "Felipe Agudelo",
+      "calificacion": 5,
+      "comentario": "El hotel boutique es elegante y el servicio excelente."
+    },
+    {
+      "id": 23,
+      "alojamientoId": 22,
+      "usuario": "Carolina Restrepo",
+      "calificacion": 5,
+      "comentario": "La casa con muelle privado es simplemente perfecta :3"
+    },
+    {
+      "id": 24,
+      "alojamientoId": 23,
+      "usuario": "Julián Gómez",
+      "calificacion": 4,
+      "comentario": "Cómodo y bien ubicado, buena relación precio-calidad."
+    },
+    {
+      "id": 25,
+      "alojamientoId": 24,
+      "usuario": "Sara Lucía Pineda",
+      "calificacion": 5,
+      "comentario": "Minca es un paraíso y el ecohotel está muy bien cuidado."
+    },
+    {
+      "id": 26,
+      "alojamientoId": 25,
+      "usuario": "Mauricio Ardila",
+      "calificacion": 4,
+      "comentario": "Muy buen apartamento en zona tranquila de Bucaramanga."
+    },
+    {
+      "id": 27,
+      "alojamientoId": 26,
+      "usuario": "Isabella Caicedo",
+      "calificacion": 5,
+      "comentario": "Nuquí es mágico, la cabaña frente al Pacífico es un sueño."
+    },
+    {
+      "id": 28,
+      "alojamientoId": 27,
+      "usuario": "Diego Fernando Lozano",
+      "calificacion": 5,
+      "comentario": "Excelente ubicación en Granada, cerca de todo."
+    },
+    {
+      "id": 29,
+      "alojamientoId": 28,
+      "usuario": "Ana María Beltrán",
+      "calificacion": 5,
+      "comentario": "Ver el cielo estrellado en la Tatacoa desde la casa es inolvidable :)"
+    },
+    {
+      "id": 30,
+      "alojamientoId": 29,
+      "usuario": "Camilo Andrés Vega",
+      "calificacion": 4,
+      "comentario": "Buena opción para conocer el centro histórico de Tunja."
+    },
+    {
+      "id": 31,
+      "alojamientoId": 30,
+      "usuario": "Laura Catalina Ríos",
+      "calificacion": 5,
+      "comentario": "La experiencia en el Amazonas fue única, 100% recomendada."
+    },
+    {
+      "id": 32,
+      "alojamientoId": 2,
+      "usuario": "Tomás Giraldo",
+      "calificacion": 4,
+      "comentario": "Muy buena estadía, el apartamento tiene todo lo necesario."
+    },
+    {
+      "id": 33,
+      "alojamientoId": 5,
+      "usuario": "Manuela Osorio",
+      "calificacion": 4,
+      "comentario": "El gimnasio y el parqueadero son un plus."
+    },
+    {
+      "id": 34,
+      "alojamientoId": 11,
+      "usuario": "Gabriel Pardo",
+      "calificacion": 5,
+      "comentario": "Ideal para familias, la piscina y el BBQ son lo mejor."
+    },
+    {
+      "id": 35,
+      "alojamientoId": 17,
+      "usuario": "Nicolás Bermúdez",
+      "calificacion": 4,
+      "comentario": "Los jardines son enormes, perfectos para los niños."
     }
   ]
 }
