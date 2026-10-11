@@ -1,10 +1,6 @@
 [
   {
-<<<<<<< HEAD
-    "id": 3,
-=======
     "id": 2001,
->>>>>>> main
     "nombre": "Tour en Bicicleta por el Centro Histórico",
     "descripcion": "Recorre los lugares más icónicos de la ciudad con un guía experto.",
     "precio": 45000,

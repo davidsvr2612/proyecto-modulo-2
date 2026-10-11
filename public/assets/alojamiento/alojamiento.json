@@ -20,21 +20,8 @@
         "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
       ],
-<<<<<<< HEAD
-      "servicios": [
-        "Wi-Fi",
-        "Cocina",
-        "Televisión",
-        "Lavadora"
-      ],
-      "reglas": [
-        "No fumar",
-        "No se permiten fiestas"
-      ]
-=======
       "servicios": ["Wi-Fi", "Cocina", "Televisión", "Lavadora"],
       "reglas": ["No fumar", "No se permiten fiestas"]
->>>>>>> main
     },
     {
       "id": 2,
@@ -56,22 +43,8 @@
         "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
       ],
-<<<<<<< HEAD
-      "servicios": [
-        "Wi-Fi",
-        "Piscina",
-        "Aire acondicionado",
-        "Cocina",
-        "Parqueadero"
-      ],
-      "reglas": [
-        "No fumar",
-        "No mascotas"
-      ]
-=======
       "servicios": ["Wi-Fi", "Piscina", "Aire acondicionado", "Cocina", "Parqueadero"],
       "reglas": ["No fumar", "No mascotas"]
->>>>>>> main
     },
     {
       "id": 3,
@@ -93,21 +66,8 @@
         "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1200&q=80"
       ],
-<<<<<<< HEAD
-      "servicios": [
-        "Wi-Fi",
-        "Cocina",
-        "Parqueadero",
-        "BBQ"
-      ],
-      "reglas": [
-        "No fumar",
-        "Silencio después de las 10 PM"
-      ]
-=======
       "servicios": ["Wi-Fi", "Cocina", "Parqueadero", "BBQ"],
       "reglas": ["No fumar", "Silencio después de las 10 PM"]
->>>>>>> main
     },
     {
       "id": 4,
@@ -129,21 +89,8 @@
         "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
       ],
-<<<<<<< HEAD
-      "servicios": [
-        "Wi-Fi",
-        "Cocina",
-        "Chimenea",
-        "Parqueadero"
-      ],
-      "reglas": [
-        "No fiestas",
-        "Máximo 8 huéspedes"
-      ]
-=======
       "servicios": ["Wi-Fi", "Cocina", "Chimenea", "Parqueadero"],
       "reglas": ["No fiestas", "Máximo 8 huéspedes"]
->>>>>>> main
     },
     {
       "id": 5,
@@ -160,21 +107,6 @@
       "tarifaLimpieza": 50000,
       "calificacion": 4.5,
       "activo": true,
-<<<<<<< HEAD
-      "imagenPrincipal": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-      "imagenes": [
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
-      ],
-      "servicios": [
-        "Wi-Fi",
-        "Cocina",
-        "Gimnasio",
-        "Parqueadero"
-      ],
-      "reglas": [
-        "No fumar"
-      ]
-=======
       "imagenPrincipal": "https://tse1.mm.bing.net/th/id/OIP.boVrQsigw9uzq6--SBvjngHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
       "imagenes": [
         "https://tse1.mm.bing.net/th/id/OIP.boVrQsigw9uzq6--SBvjngHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
@@ -182,7 +114,6 @@
       ],
       "servicios": ["Wi-Fi", "Cocina", "Gimnasio", "Parqueadero"],
       "reglas": ["No fumar"]
->>>>>>> main
     },
     {
       "id": 6,
@@ -201,18 +132,6 @@
       "activo": false,
       "imagenPrincipal": "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
       "imagenes": [
-<<<<<<< HEAD
-        "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80"
-      ],
-      "servicios": [
-        "Piscina",
-        "Parqueadero",
-        "BBQ"
-      ],
-      "reglas": [
-        "No fiestas"
-      ]
-=======
         "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
         "https://tse1.mm.bing.net/th/id/OIP.Z6iFuPe6yIf4_D83CtQ8MQHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
       ],
@@ -770,7 +689,6 @@
       ],
       "servicios": ["Wi-Fi", "Comidas incluidas", "Tours guiados", "Cocina"],
       "reglas": ["No fumar", "Respetar la fauna y flora", "No mascotas"]
->>>>>>> main
     }
   ],
   "resenas": [
@@ -808,11 +726,6 @@
       "usuario": "Natalia Pérez",
       "calificacion": 4,
       "comentario": "La casa es amplia y está muy bien ubicada."
-<<<<<<< HEAD
-    }
-  ]
-}
-=======
     },
     {
       "id": 6,
@@ -1026,4 +939,3 @@
     }
   ]
 }
->>>>>>> main
