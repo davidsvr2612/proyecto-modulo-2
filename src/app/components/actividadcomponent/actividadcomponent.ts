@@ -1,7 +1,6 @@
-import { Component, OnInit, AfterViewInit, ChangeDetectorRef, inject } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef, inject } from '@angular/core';
 import { Actividad } from '../../model/actividadmodel';
 import { Actividadservice } from '../../services/actividadservice';
-import { Maptilerservice } from '../../services/maptilerservice';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,25 +9,28 @@ import { Router } from '@angular/router';
   templateUrl: './actividadcomponent.html',
   styleUrls: ['./actividadcomponent.css'],
 })
-export class Actividadcomponent implements OnInit, AfterViewInit {
+export class Actividadcomponent implements OnInit {
   private actividadservice = inject(Actividadservice);
-  private maptilerservice = inject(Maptilerservice);
   private cdr = inject(ChangeDetectorRef);
   private router = inject(Router);
 
   listaActividades: Actividad[] = [];
-  private map: any;
   ciudadSeleccionada = '';
   precioMaximo = '';
 
+  public center: { lat: number; lng: number } = { lat: 4.60971, lng: -74.08175 };
+  public zoom = 12;
+  public marcadores: Array<{ position: { lat: number; lng: number }; title: string }> = [];
+
   get ciudadesDisponibles(): string[] {
-    return [...new Set(this.listaActividades.map(actividad => actividad.ubicacion))].sort();
+    return [...new Set(this.listaActividades.map((actividad) => actividad.ubicacion))].sort();
   }
 
   get actividadesFiltradas(): Actividad[] {
-    return this.listaActividades.filter(actividad =>
-      (!this.ciudadSeleccionada || actividad.ubicacion === this.ciudadSeleccionada) &&
-      (this.precioMaximo === '' || actividad.precio <= Number(this.precioMaximo))
+    return this.listaActividades.filter(
+      (actividad) =>
+        (!this.ciudadSeleccionada || actividad.ubicacion === this.ciudadSeleccionada) &&
+        (this.precioMaximo === '' || actividad.precio <= Number(this.precioMaximo)),
     );
   }
 
@@ -42,7 +44,6 @@ export class Actividadcomponent implements OnInit, AfterViewInit {
       next: (data: Actividad[]) => {
         this.listaActividades = data;
         this.cdr.markForCheck();
-
         this.actualizarMarcadoresEnMapa();
       },
       error: (err: unknown) => {
@@ -51,21 +52,24 @@ export class Actividadcomponent implements OnInit, AfterViewInit {
     });
   }
 
-  ngAfterViewInit(): void {
-    this.map = this.maptilerservice.crearMapa('map-actividad', -74.08175, 4.60971, 12);
-  }
-
   private actualizarMarcadoresEnMapa(): void {
-    if (!this.map) return;
+    if (this.listaActividades.length === 0) return;
 
-    this.listaActividades.forEach((actividad) => {
-      const lat = (actividad as any).latitud || 4.60971;
-      const lng = (actividad as any).longitud || -74.08175;
+    this.marcadores = this.listaActividades.map((actividad) => {
+      const lat = Number((actividad as any).latitud || (actividad as any).lat || 4.60971);
+      const lng = Number((actividad as any).longitud || (actividad as any).lng || -74.08175);
       const nombre = (actividad as any).nombre || 'Actividad';
-      const precio = (actividad as any).precio ? `$${(actividad as any).precio}` : '';
 
-      this.maptilerservice.agregarMarcador(this.map, lng, lat, nombre, precio);
+      return {
+        position: { lat, lng },
+        title: nombre,
+      };
     });
+
+    const primera = this.listaActividades[0];
+    const latPrim = Number((primera as any).latitud || (primera as any).lat || 4.60971);
+    const lngPrim = Number((primera as any).longitud || (primera as any).lng || -74.08175);
+    this.center = { lat: latPrim, lng: lngPrim };
   }
 
   seleccionarActividad(id: number) {
