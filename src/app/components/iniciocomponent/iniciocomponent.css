@@ -1,0 +1,30 @@
+
+.pagina-inicio section {
+  padding: 24px;
+}
+
+.bienvenida {
+  text-align: center;
+}
+
+.contenedor-servicios {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.servicio {
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 16px;
+}
+
+@media (max-width: 768px) {
+  .contenedor-servicios {
+    grid-template-columns: 1fr;
+  }
+}
