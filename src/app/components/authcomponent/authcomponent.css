@@ -1,4 +1,16 @@
-:host { display: block; }
-.card { border: 1px solid var(--gohome-border); box-shadow: var(--gohome-shadow); }
-.card h1 { letter-spacing: -.05em; }
-.btn-group .btn { font-weight: 600; }
+:host {
+  display: block;
+}
+
+.card {
+  border: 1px solid var(--gohome-border);
+  box-shadow: var(--gohome-shadow);
+}
+
+.card h1 {
+  letter-spacing: -.05em;
+}
+
+.btn-group .btn {
+  font-weight: 600;
+}

@@ -22,12 +22,14 @@
               <div class="row g-3">
                 <div class="col-md-6">
                   <label class="form-label">{{ esVehiculo ? 'Fecha de recogida' : 'Fecha de la actividad' }}</label>
-                  <input type="date" class="form-control" name="fechaInicio" [(ngModel)]="fechaInicio" [min]="minFecha" (ngModelChange)="cotizacion=false" required>
+                  <input type="date" class="form-control" name="fechaInicio" [(ngModel)]="fechaInicio" [min]="minFecha"
+                         (ngModelChange)="cotizacion=false" required>
                 </div>
                 @if (esVehiculo) {
                   <div class="col-md-6">
                     <label class="form-label">Fecha de devolución</label>
-                    <input type="date" class="form-control" name="fechaFin" [(ngModel)]="fechaFin" [min]="fechaInicio || minFecha" (ngModelChange)="cotizacion=false" required>
+                    <input type="date" class="form-control" name="fechaFin" [(ngModel)]="fechaFin"
+                           [min]="fechaInicio || minFecha" (ngModelChange)="cotizacion=false" required>
                   </div>
                 } @else {
                   <div class="col-md-6">
@@ -56,7 +58,9 @@
                   <strong class="text-success">{{ total | currency:'COP':'symbol':'1.0-0' }}</strong>
                 </div>
                 <p class="text-muted small mt-3">La reserva se registrará a nombre de tu cuenta.</p>
-                <button class="btn btn-success rounded-pill w-100" type="button" (click)="reservar()">Confirmar reserva</button>
+                <button class="btn btn-success rounded-pill w-100" type="button" (click)="reservar()">Confirmar
+                  reserva
+                </button>
               </div>
             }
           </div>
