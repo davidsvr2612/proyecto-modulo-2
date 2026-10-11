@@ -17,7 +17,7 @@ export class Actividadcomponent implements OnInit, AfterViewInit {
   private router = inject(Router);
 
   listaActividades: Actividad[] = [];
-  private map: any; 
+  private map: any;
   ciudadSeleccionada = '';
   precioMaximo = '';
 
