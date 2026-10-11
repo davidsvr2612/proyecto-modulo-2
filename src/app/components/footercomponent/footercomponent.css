@@ -1,2 +1,7 @@
-:host { display: block; }
-footer { font-size: .9rem; }
+:host {
+  display: block;
+}
+
+footer {
+  font-size: .9rem;
+}
