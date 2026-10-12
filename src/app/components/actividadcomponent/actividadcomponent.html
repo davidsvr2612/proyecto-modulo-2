@@ -20,6 +20,13 @@
     </div>
   </div>
 
+  <div class="card border-0 shadow-sm rounded-4 overflow-hidden mb-4">
+    <google-map height="350px" width="100%" [center]="center" [zoom]="zoom">
+      @for (marcador of marcadores; track marcador.title) {
+        <map-marker [position]="marcador.position" [title]="marcador.title"></map-marker>
+      }
+    </google-map>
+  </div>
 
   <div class="d-flex justify-content-between align-items-center mb-3">
     <h2 class="h5 fw-bold mb-0">Experiencias disponibles</h2>
