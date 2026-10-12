@@ -1,59 +1,84 @@
-# ProyectoModulo2
+# Gohome
+
+## Accommodation-Marketplace
+
+A frontend to browse, get quotes for, and simulate bookings of short-term accommodations, vehicles, and activities.
+
+## Team members :
+
+- David Santiago Vargas Rey - [@davidsvr2612](https://github.com/davidsvr2612)
+- Leonardo Alejandro Mena Freites - [@LeoMenays16](https://github.com/LeoMenays16)
+- Letizia Alejandra Rodríguez Cardenas - [@LettyAle](https://github.com/LettyAle)
+- Mateo Alvarez Martinez - [@m00n999](https://github.com/m00n999)
+
+## Tecnology used
+
+- Angular
+- Typescript
+- Bootstrap
+- Font Awesome
+- Google Maps API
+- Node.js
+- npm
+
+## Requeriments
+
+- Node.js v24.20.0
+- npm v11.19.0
+
+## Main Features
+
+- List of active accommodations, vehicles, and activities with image, city, price, rating, and amenities
+- Filters by city, number of guests, type, and maximum price, with a clear-filters option
+- Interactive Google Maps integration
+- A login and account creation system
+- Accommodation detail page with reviews, house rules, and images
+- Quote calculation (nights, subtotal, cleaning fee, 10% service fee, total)
+-gohome
+  ├── public/assets/
+  │   ├── alojamiento/
+  │   ├── vehiculo/
+  │   └── actividad/
+  │
+  └── src
+  ├── app/
+  │   ├── components/
+  │   ├── guards/
+  │   ├── model/
+  │   └── services/ Simulated booking and "Mis reservas" view
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.1.
 
-## Development server
+# Installation
 
-To start a local development server, run:
+```bash
+git clone https://github.com/mb-2607/accommodation-marketplace
+cd accommodation-marketplace
+npm install
+npm run start
+```
+
+## Running the app:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`.
 
-## Code scaffolding
+## Project Structure
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+accomodation-marketplace
+├── public/assets/
+│   ├── data/
+│   └── images/
+│
+└── src
+    ├── components
+    ├── guards
+    ├── model
+    └── services
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project uses GNU 3.0 license, see LICENSE to more details
