@@ -1,32 +1,74 @@
-<div class="container-fluid vh-100 vw-100 d-flex flex-column p-0 bg-light">
-  <div class="row">
-    <div class="card">
-      <div class="card-body p-5">
-        <h2>Bienvenido</h2>
-        <p>Ingresa tus datos para iniciar sesión</p>
-        <div class="container p-5">
-          <div class="row mb-3">
-            <label for="emailInput" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" [value]="email" (input)="onEmailInput($event)">
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-7 col-lg-5">
+      <div class="card border-0 shadow rounded-4 p-4 p-md-5">
+        @if (sesion$ | async; as sesion) {
+          <div class="text-center">
+            <h1 class="fw-bold text-primary">Gohome</h1>
+            <p class="text-muted">
+              Ya iniciaste sesión como <strong>{{ sesion.nombre }}</strong> ({{ sesion.correo }}).
+            </p>
+            <a routerLink="/mis-reservas" class="btn btn-primary rounded-pill w-100 mb-2">Ver mis reservas</a>
+            <a routerLink="/alojamientos" class="btn btn-outline-primary rounded-pill w-100 mb-2">Explorar alojamientos</a>
+            <button type="button" class="btn btn-outline-secondary rounded-pill w-100" (click)="cerrarSesionActual()">
+              Cerrar sesión
+            </button>
           </div>
-          <div class="row mb-3">
-            <label for="userName" class="form-label">User name</label>
-            <input type="text" class="form-control" id="userName" placeholder="Francisco98" [value]="username" (input)="onUsernameInput($event)">
+        } @else {
+          <div class="text-center mb-4">
+            <h1 class="fw-bold text-primary">Gohome</h1>
+            <p class="text-muted">Inicia sesión para continuar con tus reservas.</p>
           </div>
-          <div class="row mb-3">
-            <label for="passwordUser" class="form-label">Password</label>
-            <input type="password" id="passwordUser" class="form-control" aria-describedby="passwordHelpBlock" [value]="password" (input)="onPasswordInput($event)">
-          </div>
-          <div class="row my-5">
-            <button (click)="login()"
-                    class="btn w-100 rounded-pill fw-bold shadow-none border-0 py-2 amazon-btn">
+
+          <form (ngSubmit)="login()" #loginForm="ngForm">
+            <label for="correoLogin" class="form-label">Correo electrónico</label>
+            <input
+              id="correoLogin"
+              class="form-control mb-3"
+              type="email"
+              name="correo"
+              placeholder="nombre@correo.com"
+              autocomplete="email"
+              [(ngModel)]="correo"
+              required
+              email
+            />
+
+            <label for="passwordLogin" class="form-label">Contraseña</label>
+            <div class="input-group mb-3">
+              <input
+                id="passwordLogin"
+                class="form-control"
+                name="password"
+                autocomplete="current-password"
+                [type]="verPassword ? 'text' : 'password'"
+                [(ngModel)]="password"
+                required
+              />
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                (click)="alternarPassword()"
+                [attr.aria-label]="verPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'"
+              >
+                <i class="fa-solid" [class.fa-eye]="!verPassword" [class.fa-eye-slash]="verPassword"></i>
+              </button>
+            </div>
+
+            @if (error) {
+              <div class="alert alert-danger">{{ error }}</div>
+            }
+
+            <button class="btn btn-primary rounded-pill w-100 mt-2" type="submit" [disabled]="!loginForm.valid">
               Iniciar sesión
             </button>
-            @if(!esValido){
-              <p class="text-danger text-center mt-3">Usuario, email o contraseña no válida. Por favor intente de nuevo.</p>
-            }
-          </div>
-        </div>
+          </form>
+
+          <p class="text-center text-muted mt-4 mb-0">
+            ¿Todavía no tienes cuenta?
+            <a routerLink="/registro" queryParamsHandling="preserve">Crear cuenta</a>
+          </p>
+        }
       </div>
     </div>
   </div>
