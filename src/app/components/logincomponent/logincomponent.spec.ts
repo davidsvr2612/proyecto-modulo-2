@@ -12,7 +12,7 @@ describe('Logincomponent', () => {
 
     fixture = TestBed.createComponent(Logincomponent);
     component = fixture.componentInstance;
-    await fixture.whenStable();
+    fixture.detectChanges();
   });
 
   it('should create', () => {
