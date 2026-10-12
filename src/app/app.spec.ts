@@ -1,31 +1,30 @@
 import { TestBed } from '@angular/core/testing';
-import { RouterModule } from '@angular/router';
-// @ts-ignore
+import { AppModule } from './app-module';
 import { App } from './app';
 
 describe('App', () => {
   beforeEach(async () => {
+    localStorage.clear();
     await TestBed.configureTestingModule({
-      imports: [
-        RouterModule.forRoot([])
-      ],
-      declarations: [
-        App
-      ],
-    })
-      .compileComponents();
+      imports: [AppModule],
+    }).compileComponents();
   });
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(App);
-    const app = fixture.componentInstance;
-    expect(app).toBeTruthy();
+    expect(fixture.componentInstance).toBeTruthy();
   });
 
-  it('should render title', async () => {
+  it('should keep the project title', () => {
+    const fixture = TestBed.createComponent(App);
+    expect(fixture.componentInstance.title).toBe('ProyectoModulo2');
+  });
+
+  it('should render the navbar and the footer', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ProyectoModulo2');
+    expect(compiled.querySelector('nav')?.textContent).toContain('Gohome');
+    expect(compiled.querySelector('footer')?.textContent).toContain('Gohome');
   });
 });

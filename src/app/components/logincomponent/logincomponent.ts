@@ -1,6 +1,6 @@
-import {Component, inject, OnInit} from '@angular/core';
-import {Loginservice} from '../../services/loginservice';
-import {Router} from '@angular/router';
+import { Component, OnInit, inject } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Loginservice } from '../../services/loginservice';
 
 @Component({
   selector: 'app-logincomponent',
@@ -9,50 +9,39 @@ import {Router} from '@angular/router';
   templateUrl: './logincomponent.html',
 })
 export class Logincomponent implements OnInit {
-  protected username: string = "";
-  protected password: string = "";
-  protected email: string = "";
-  protected esValido: boolean = true;
-  protected sesionActiva: boolean = false;
+  private loginservice = inject(Loginservice);
+  private route = inject(ActivatedRoute);
+  private router = inject(Router);
 
-  private rt: Router = inject(Router);
-  protected loginservice: Loginservice = inject(Loginservice);
+  sesion$ = this.loginservice.getObservable();
+  correo = '';
+  password = '';
+  verPassword = false;
+  error = '';
+  returnUrl = '/alojamientos';
 
   ngOnInit(): void {
-    this.sesionActiva = this.loginservice.getPerfil();
-
-    this.loginservice.getObservable().subscribe(perfil => {
-    });
+    const destino = this.route.snapshot.queryParamMap.get('returnUrl');
+    this.returnUrl = destino && destino.startsWith('/') && !destino.startsWith('//') ? destino : '/alojamientos';
   }
 
-
-  cerrarSesionActual(): void {
-    this.loginservice.eliminarPerfil();
-    this.sesionActiva = this.loginservice.getPerfil();
-  }
-
-  onEmailInput(event: any): void {
-    this.email = event.target.value;
-  }
-
-  onUsernameInput(event: any): void {
-    this.username = event.target.value;
-  }
-
-  onPasswordInput(event: any): void {
-    this.password = event.target.value;
+  alternarPassword(): void {
+    this.verPassword = !this.verPassword;
   }
 
   login(): void {
-    if(this.username.trim() && this.password.trim() && this.email.trim()){
-      this.loginservice.actualizarPerfil({
-        userName: this.username,
-        email: this.email,
-        password: this.password
-      });
-      void this.rt.navigate([""]);
-    } else {
-      this.esValido = false;
+    this.error = '';
+    if (!this.correo.trim() || !this.password) {
+      this.error = 'Ingresa tu correo y tu contraseña.';
+      return;
     }
+    this.error = this.loginservice.iniciarSesion(this.correo, this.password);
+    if (!this.error) {
+      void this.router.navigateByUrl(this.returnUrl);
+    }
+  }
+
+  cerrarSesionActual(): void {
+    this.loginservice.cerrarSesion();
   }
 }

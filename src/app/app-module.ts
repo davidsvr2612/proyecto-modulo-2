@@ -1,3 +1,4 @@
+
 import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
@@ -5,9 +6,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { AppRoutingModule } from './app-routing-module';
-import { AppComponent } from './app';
+import { App } from './app';
 import { Footercomponent } from './components/footercomponent/footercomponent';
 import { Navbarcomponent } from './components/navbarcomponent/navbarcomponent';
+import { Iniciocomponent } from './components/iniciocomponent/iniciocomponent';
+import { Logincomponent } from './components/logincomponent/logincomponent';
 import { Vehiculocomponent } from './components/vehiculocomponent/vehiculocomponent';
 import { Actividadcomponent } from './components/actividadcomponent/actividadcomponent';
 import { AlojamientoComponent } from './components/alojamientocomponent/alojamientocomponent';
@@ -18,9 +21,11 @@ import { Reservaritemcomponent } from './components/reservaritemcomponent/reserv
 
 @NgModule({
   declarations: [
-    AppComponent,
+    App,
     Footercomponent,
     Navbarcomponent,
+    Iniciocomponent,
+    Logincomponent,
     Vehiculocomponent,
     Actividadcomponent,
     AlojamientoComponent,
@@ -38,6 +43,6 @@ import { Reservaritemcomponent } from './components/reservaritemcomponent/reserv
     GoogleMapsModule,
   ],
   providers: [provideBrowserGlobalErrorListeners()],
-  bootstrap: [AppComponent],
+  bootstrap: [App],
 })
 export class AppModule {}

@@ -1,111 +1,128 @@
-<main class="pagina-inicio">
+<main class="container my-5">
 
-  <section class="bienvenida">
-    <p class="subtitulo">GoHome</p>
+  <section class="hero text-center rounded-4 p-4 p-md-5 mb-5">
+    <p class="hero-etiqueta text-uppercase fw-semibold small mb-2">GoHome</p>
 
-    <h1>Tu próximo viaje comienza aquí</h1>
+    @if (sesion$ | async; as sesion) {
+      <h1 class="fw-bold">Hola, {{ sesion.nombre }}. Tu próximo viaje comienza aquí</h1>
+    } @else {
+      <h1 class="fw-bold">Tu próximo viaje comienza aquí</h1>
+    }
 
-    <p class="descripcion">
-      Descubre alojamientos, explora vehículos y encuentra
-      actividades para planificar una experiencia a tu medida.
-      Todo lo que necesitas para tu próximo viaje en un solo lugar, GoHome.
+    <p class="lead mt-3 mb-4">
+      Descubre alojamientos, explora vehículos y encuentra actividades para planificar
+      una experiencia a tu medida. Todo lo que necesitas para tu próximo viaje en un solo lugar, GoHome.
     </p>
 
-    <button
-      type="button"
-      class="boton-principal"
-      (click)="buscarAlojamientos()"
-    >
-      Buscar alojamientos
-    </button>
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+      <button type="button" class="btn btn-primary btn-lg rounded-pill px-4" (click)="buscarAlojamientos()">
+        Buscar alojamientos
+      </button>
+      @if (!(sesion$ | async)) {
+        <a routerLink="/registro" class="btn btn-outline-primary btn-lg rounded-pill px-4">Crear cuenta</a>
+      }
+    </div>
   </section>
 
-  <section class="alojamientos-destacados">
+  <section class="mb-5">
+    <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-4">
+      <div>
+        <h2 class="fw-bold mb-1">Alojamientos destacados</h2>
+        <p class="text-muted mb-0">Los mejor calificados por quienes ya se hospedaron.</p>
+      </div>
+      <button type="button" class="btn btn-outline-primary rounded-pill" (click)="buscarAlojamientos()">
+        Explorar alojamientos disponibles
+      </button>
+    </div>
 
-    <h2>Alojamientos destacados</h2>
-
-    <p>
-      Encuentra el lugar ideal para descansar y disfrutar
-      de tu próximo destino.
-    </p>
-
-    <button
-      type="button"
-      class="boton-secundario"
-      (click)="buscarAlojamientos()"
-    >
-      Explorar alojamientos disponibles
-    </button>
-
+    @if (cargando) {
+      <div class="text-center py-5">
+        <div class="spinner-border text-primary" role="status"></div>
+        <p class="text-muted mt-3">Cargando alojamientos...</p>
+      </div>
+    } @else if (error) {
+      <div class="alert alert-warning">{{ error }}</div>
+    } @else {
+      <div class="row g-4">
+        @for (alojamiento of destacados; track alojamiento.id) {
+          <div class="col-md-6 col-lg-4">
+            <div class="card destacado h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+              <div class="position-relative">
+                <img [src]="alojamiento.imagenPrincipal" class="card-img-top destacado-img" [alt]="alojamiento.nombre">
+                <span class="badge bg-dark position-absolute top-0 end-0 m-3 px-3 py-2">{{ alojamiento.ciudad }}</span>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-start gap-2">
+                  <h5 class="card-title fw-bold text-primary">{{ alojamiento.nombre }}</h5>
+                  <span class="text-nowrap">★ {{ alojamiento.calificacion }}</span>
+                </div>
+                <p class="text-muted small mb-3">{{ alojamiento.tipo }} · Hasta {{ alojamiento.capacidad }} huéspedes</p>
+                <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top">
+                  <div>
+                    <span class="text-muted small d-block">Precio por noche</span>
+                    <strong class="text-success fs-5">{{ alojamiento.precioNoche | currency:'COP':'symbol':'1.0-0' }}</strong>
+                  </div>
+                  <a class="btn btn-primary px-4 rounded-pill" [routerLink]="['/alojamientos', alojamiento.id]">Ver detalle</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        } @empty {
+          <div class="col-12 text-center py-4">
+            <p class="text-muted mb-0">Por ahora no hay alojamientos para mostrar.</p>
+          </div>
+        }
+      </div>
+    }
   </section>
 
-  <section class="servicios">
+  <section>
+    <h2 class="fw-bold mb-4">Explora nuestros servicios</h2>
 
-    <h2>Explora nuestros servicios</h2>
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-3">
+        <article class="servicio card h-100 border-0 shadow-sm rounded-4 p-4">
+          <i class="servicio-icono fa-solid fa-house mb-3"></i>
+          <h3 class="h5 fw-bold">Alojamientos</h3>
+          <p class="text-muted">Explora opciones de hospedaje para tu próxima estancia.</p>
+          <button type="button" class="btn btn-outline-primary rounded-pill mt-auto" (click)="buscarAlojamientos()">
+            Ver alojamientos
+          </button>
+        </article>
+      </div>
 
-    <div class="contenedor-servicios">
+      <div class="col-sm-6 col-lg-3">
+        <article class="servicio card h-100 border-0 shadow-sm rounded-4 p-4">
+          <i class="servicio-icono fa-solid fa-car mb-3"></i>
+          <h3 class="h5 fw-bold">Vehículos</h3>
+          <p class="text-muted">Consulta las opciones de transporte disponibles para tus desplazamientos.</p>
+          <button type="button" class="btn btn-outline-primary rounded-pill mt-auto" (click)="irAVehiculos()">
+            Explorar vehículos
+          </button>
+        </article>
+      </div>
 
-      <article class="servicio">
-        <h3>Alojamientos</h3>
+      <div class="col-sm-6 col-lg-3">
+        <article class="servicio card h-100 border-0 shadow-sm rounded-4 p-4">
+          <i class="servicio-icono fa-solid fa-person-hiking mb-3"></i>
+          <h3 class="h5 fw-bold">Actividades</h3>
+          <p class="text-muted">Descubre experiencias y actividades para tu viaje.</p>
+          <button type="button" class="btn btn-outline-primary rounded-pill mt-auto" (click)="irAActividades()">
+            Ver actividades
+          </button>
+        </article>
+      </div>
 
-        <p>
-          Explora opciones de hospedaje para tu próxima estancia.
-        </p>
-
-        <button
-          type="button"
-          (click)="buscarAlojamientos()"
-        >
-          Ver alojamientos
-        </button>
-      </article>
-
-      <article class="servicio">
-        <h3>Vehículos</h3>
-
-        <p>
-          Consulta las opciones de transporte disponibles
-          para tus desplazamientos.
-        </p>
-
-        <button
-          type="button"
-          (click)="irAVehiculos()"
-        >
-          Explorar vehículos
-        </button>
-      </article>
-
-      <article class="servicio">
-        <h3>Actividades</h3>
-
-        <p>
-          Descubre experiencias y actividades para tu viaje.
-        </p>
-
-        <button
-          type="button"
-          (click)="irAActividades()"
-        >
-          Ver actividades
-        </button>
-      </article>
-
-      <article class="servicio">
-        <h3>Reservas</h3>
-
-        <p>
-          Accede al módulo de reservas de la plataforma.
-        </p>
-
-        <button
-          type="button"
-          (click)="irAReservas()"
-        >
-          Consultar reservas
-        </button>
-      </article>
-
+      <div class="col-sm-6 col-lg-3">
+        <article class="servicio card h-100 border-0 shadow-sm rounded-4 p-4">
+          <i class="servicio-icono fa-solid fa-calendar-check mb-3"></i>
+          <h3 class="h5 fw-bold">Reservas</h3>
+          <p class="text-muted">Consulta y administra las reservas que has realizado.</p>
+          <button type="button" class="btn btn-outline-primary rounded-pill mt-auto" (click)="irAReservas()">
+            Consultar reservas
+          </button>
+        </article>
+      </div>
     </div>
   </section>
 
